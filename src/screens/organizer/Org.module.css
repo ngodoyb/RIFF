@@ -1,0 +1,23 @@
+/* Estilos compartidos del flujo organizador (medidas de 2023:35978). */
+.cuerpo { display: flex; flex-direction: column; flex: 1; padding: 0 var(--gutter); }
+.titulo { margin-top: 9px; font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.texto { margin-top: 12px; font: 400 16px/1.5 var(--font-body); color: var(--text-secondary); }
+.form { display: flex; flex-direction: column; gap: var(--space-4); margin-top: 20px; }
+.label { font: 700 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.campo { display: flex; flex-direction: column; gap: var(--space-2); }
+.link { display: flex; align-items: center; justify-content: center; gap: var(--space-1); height: 44px; margin-top: 16px; font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }
+.link strong { color: var(--brand-primary); }
+.acciones {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 20; display: flex; gap: var(--space-2);
+  padding: 12px var(--gutter) 36px; background: var(--glass-top); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+}
+.secundario { width: 112px; flex-shrink: 0; }
+.principal { flex: 1; }
+.nota { display: flex; align-items: flex-start; gap: var(--space-2); font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.nota > span:first-child { color: var(--brand-primary); }
+.alertaRoja {
+  display: flex; gap: var(--space-2); padding: 12px 16px; border: 1px solid var(--brand-accent); border-radius: var(--radius-sm);
+  background: rgba(147, 58, 80, 0.18); font: 400 12px/1.4 var(--font-body);
+}
+.alertaRoja > span:first-child { color: var(--brand-accent); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); }

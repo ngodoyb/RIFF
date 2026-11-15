@@ -1,0 +1,31 @@
+.header { display: flex; justify-content: space-between; align-items: flex-start; padding: 13px var(--gutter) 0; }
+.hola { font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }
+.titulo { font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.campana { position: relative; display: grid; place-items: center; width: 44px; height: 44px; margin-top: 12px; border-radius: 22px; background: var(--surface-default); border: 1px solid var(--border-subtle); }
+.punto { position: absolute; top: 10px; right: 11px; width: 8px; height: 8px; border-radius: 50%; background: var(--brand-accent); border: 1.5px solid var(--bg-base); }
+.cuerpo { display: flex; flex-direction: column; padding: 18px var(--gutter) 32px; }
+.publicar { display: flex; align-items: center; justify-content: center; height: 52px; border-radius: var(--radius-sm); background: var(--brand-primary); color: var(--text-on-primary); font: 700 16px/1.5 var(--font-body); }
+.resumenTitulo { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; }
+.resumenTitulo span { font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.h3 { font: 700 17px/1.3 var(--font-display); letter-spacing: -0.005em; }
+.metricas { display: flex; gap: 11px; margin-top: 16px; }
+.tile > span:first-child { display: none; }
+.tile > p:first-of-type { font-size: 32px; }
+.h2 { margin-top: 24px; font: 700 20px/1.3 var(--font-display); letter-spacing: -0.01em; }
+.eventos { display: flex; flex-direction: column; gap: var(--space-4); margin-top: 16px; }
+.evento { display: flex; flex-direction: column; gap: 10px; padding: 12px; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); background: var(--surface-default); }
+.rechazado { border-color: var(--brand-accent); }
+.eventoArriba { display: flex; gap: var(--space-3); }
+.mini { width: 64px; height: 64px; border-radius: var(--radius-sm); overflow: hidden; flex-shrink: 0; }
+.eventoTexto { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-width: 0; }
+.eventoTexto strong { font: 700 14px/1.45 var(--font-body); }
+.eventoTexto span { font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.estadoTexto { display: flex; align-items: center; gap: 6px; font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.motivo { color: var(--text-primary); }
+.motivo > span { color: var(--brand-accent); }
+.acciones { display: flex; gap: var(--space-2); }
+.accion {
+  display: flex; flex: 1; align-items: center; justify-content: center; gap: 4px; height: 44px; padding: 0 4px;
+  border-radius: var(--radius-sm); background: var(--surface-default); font: 700 12px/1.4 var(--font-body); white-space: nowrap;
+}
+.peligro { color: var(--brand-accent); }

@@ -57,3 +57,13 @@ Pantallas: 11 Perfil (2022:35853) · confirmar cierre de sesión (2022:35965) ·
 Lógica: gustos y presupuesto editables (cambian el feed y las badges), vincular/desvincular cuenta en un paso, Ayuda con "Ver tutorial de bienvenida"
 y "Reiniciar demo" (limpia localStorage), cerrar sesión con confirmación, notificaciones que abren su evento y "Sorpréndeme" calculado con un género
 que el usuario no tiene; el punto de la campana se apaga al ver las notificaciones.
+
+## Fase 7 · Organizador (hecha)
+Pantallas: 01 Crear cuenta (2023:35980 / válido 2024:36133, selector Venue · Artista · Organizador) · 02 Verificación (2023:36047, subida con
+<input type="file"> y progreso; rechazada 2023:36114 con motivo y "Corregir y reenviar") · 03 Perfil público (2023:36184, portada y galería con
+subida de foto) · 04 Iniciar sesión (2023:36286) · 05 Panel (2024:36206) y cancelar con confirmación (2024:36374, dice a cuántas personas se avisa) ·
+06 Formulario de 4 pasos (2025:36283 / 36371 / 40555 / 40664) con barra de progreso, borrador y paso guardados en localStorage, "Siguiente" activo solo
+con los obligatorios, "Atrás" conserva lo escrito, tooltips de Organizadores y PMU, URL validada, restricciones ≤ 200 · 07 En revisión (2026:40550) ·
+08 Publicado (2026:40614) · 09 Métricas (2026:40682, gráfica SVG hecha a mano, mejor día y tasa de guardado) · 10 Notificaciones (2026:40788).
+Conexión con el consumidor: "(Prototipo) Simular aprobación" publica el evento y aparece en feed, búsqueda, filtros y mapa del consumidor
+(probado de punta a punta con Playwright, sin errores en consola).

@@ -38,3 +38,9 @@
 - Botón editar (lápiz) del perfil: Figma no tiene pantalla. Se abre una hoja con Nombre, Apellido y Correo y "Guardar cambios". [POR DEFINIR]
 - Cuentas vinculadas y Ayuda: Figma no tiene pantallas. Se usan hojas de acciones con "Desvincular <cuenta>" / "Vincular Spotify" / "Vincular Apple Music" y "Ver tutorial de bienvenida" / "Reiniciar demo". [POR DEFINIR]
 - Textos "Sin definir" y "Ninguna cuenta vinculada" para filas vacías del perfil. [POR DEFINIR]
+
+## Organizador
+- 06 · Paso 2: Figma muestra un selector de hora tipo rueda (iOS). Se usan los selectores nativos de fecha y hora del navegador. [POR DEFINIR]
+- Editar un evento existente y "Corregir" reutilizan el formulario precargado (no hay pantalla de edición en Figma).
+- Eventos publicados por el organizador: se ubican en el mapa en la posición de Bambulé (Zona Rosa) porque el formulario no geocodifica la dirección. Con backend: geocodificar.
+- Métricas de eventos nuevos empiezan en 0; la serie de 7 días de la gráfica es la del Figma (4–10 oct).

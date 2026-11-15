@@ -1,0 +1,9 @@
+.cuerpo { display: flex; flex-direction: column; padding: 49px var(--gutter) 24px; }
+.check { display: grid; place-items: center; width: 88px; height: 88px; border-radius: 50%; background: linear-gradient(135deg, var(--brand-secondary), var(--brand-accent)); color: var(--text-on-primary); }
+.titulo { margin-top: 24px; font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.texto { margin-top: 16px; font: 400 16px/1.5 var(--font-body); color: var(--text-secondary); }
+.lugares { display: flex; gap: var(--space-2); margin-top: 16px; }
+.lugares li { display: flex; align-items: center; gap: 6px; height: 34px; padding: 0 12px; border: 1px solid var(--brand-primary); border-radius: var(--radius-pill); background: var(--surface-default); font: 700 12px/1.4 var(--font-body); }
+.lugares li > span { color: var(--brand-primary); }
+.card { margin-top: 16px; }
+.volver { margin-top: 16px; }

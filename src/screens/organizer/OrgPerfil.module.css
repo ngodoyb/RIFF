@@ -1,0 +1,22 @@
+.pantalla { position: relative; height: 100%; background: var(--bg-base); }
+.scroll { height: 100%; overflow-y: auto; padding-bottom: 32px; scrollbar-width: none; }
+.portada { position: relative; height: 160px; }
+.portada img { width: 100%; height: 100%; object-fit: cover; }
+.volver, .camara {
+  position: absolute; top: calc(var(--top-safe) + 6px); display: grid; place-items: center; width: 44px; height: 44px; border-radius: 22px; cursor: pointer;
+  background: var(--glass-chip); backdrop-filter: var(--blur-chip); -webkit-backdrop-filter: var(--blur-chip);
+}
+.volver { left: 16px; }
+.camara { right: 16px; top: 101px; }
+.cabecera { display: flex; align-items: flex-end; gap: var(--space-3); margin-top: -36px; padding: 0 22px; position: relative; }
+.avatar { width: 72px; height: 72px; border-radius: 50%; border: 3px solid var(--bg-base); object-fit: cover; }
+.verificado { display: inline-flex; align-items: center; gap: 4px; height: 24px; padding: 0 10px; border-radius: var(--radius-pill); background: var(--brand-primary); color: var(--text-on-primary); font: 700 12px/1.4 var(--font-body); margin-bottom: 4px; }
+.cuerpo { display: flex; flex-direction: column; gap: var(--space-4); padding: 8px var(--gutter) 0; }
+.nombre { font: 700 24px/1.25 var(--font-display); letter-spacing: -0.015em; }
+.tipo { margin-top: -14px; font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }
+.label { font: 700 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.galeria { display: flex; flex-direction: column; gap: var(--space-2); }
+.fotos { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-2); }
+.fotos img, .agregar { aspect-ratio: 1; width: 100%; border-radius: var(--radius-sm); object-fit: cover; }
+.fotos img:nth-child(n + 4) { display: none; }
+.agregar { display: grid; place-items: center; border: 1.5px dashed var(--border-subtle); color: var(--brand-primary); cursor: pointer; }
