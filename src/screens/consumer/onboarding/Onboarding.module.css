@@ -1,0 +1,12 @@
+/* Medidas tomadas de los frames de onboarding de Figma (375 × 812). */
+.cuerpo { display: flex; flex-direction: column; flex: 1; padding: 0 var(--gutter); }
+.titulo { margin-top: 17px; font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.texto { margin-top: 10px; font: 400 16px/1.5 var(--font-body); color: var(--text-secondary); }
+.form { display: flex; flex-direction: column; gap: var(--space-4); margin-top: 24px; }
+.link { display: flex; align-items: center; justify-content: center; gap: var(--space-1); height: 44px; margin-top: 16px; font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }
+.link strong { color: var(--brand-primary); }
+.legal { font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); text-align: center; }
+.omitir { display: flex; align-items: center; justify-content: center; width: 88px; height: 44px; font: 700 14px/1.45 var(--font-body); color: var(--brand-primary); }
+.acciones { display: flex; flex-direction: column; gap: var(--space-3); margin-top: auto; padding: var(--space-3) var(--gutter) var(--space-4); }
+.ghostLink { display: flex; align-items: center; justify-content: center; height: 44px; font: 700 14px/1.45 var(--font-body); color: var(--brand-primary); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); }

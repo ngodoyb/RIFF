@@ -1,0 +1,5 @@
+.splash { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; }
+.logo { margin-top: 334px; filter: drop-shadow(0 4px 12px rgba(15, 3, 15, 0.6)); }
+.lema { margin-top: 8px; font: 400 16px/1.5 var(--font-body); color: var(--text-secondary); }
+.logoEntrada { composes: logo; opacity: 0; transform: scale(0.9); }
+.lemaEntrada { composes: lema; opacity: 0; }

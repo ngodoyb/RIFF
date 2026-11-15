@@ -1,3 +1,4 @@
+export * from './BrandLogo';
 export * from './Badge';
 export * from './BottomSheet';
 export * from './BudgetSelector';

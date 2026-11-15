@@ -2,8 +2,8 @@
 // cuando exista una API, solo cambian los servicios.
 
 export type Genre =
-  | 'Electrónica' | 'Techno' | 'House' | 'Rap' | 'Cumbia' | 'Salsa' | 'Indie' | 'Jazz' | 'Rock'
-  | 'Reggaetón' | 'Urbano' | 'Trap latino' | 'Pop latino' | 'Clásica' | 'Metal';
+  | 'Electrónica' | 'Techno' | 'House' | 'Rap' | 'Hip hop' | 'Cumbia' | 'Salsa' | 'Indie' | 'Jazz' | 'Rock'
+  | 'Reggaetón' | 'Urbano' | 'Trap latino' | 'Trap argentino' | 'Pop latino' | 'Clásica' | 'Metal';
 
 export type ActFormat = 'DJ set' | 'En vivo' | 'Acústico' | 'Festival';
 export type VenueType = 'Club' | 'Bar' | 'Teatro' | 'Al aire libre' | 'Arena';

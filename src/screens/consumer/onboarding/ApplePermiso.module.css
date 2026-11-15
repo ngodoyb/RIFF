@@ -1,0 +1,12 @@
+.capa { position: absolute; inset: 0; z-index: 40; display: grid; place-items: center; background: rgba(0, 0, 0, 0.45); }
+.alerta {
+  display: flex; flex-direction: column; align-items: center; gap: 8px; width: 270px; padding-top: 20px;
+  border-radius: 14px; background: rgba(30, 30, 30, 0.92); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  text-align: center; font-family: var(--font-system); color: #fff;
+}
+.alerta h2 { padding: 4px 16px 0; font: 600 17px/1.3 var(--font-system); }
+.alerta p { padding: 0 16px; font: 400 13px/1.35 var(--font-system); color: rgba(255, 255, 255, 0.85); }
+.botones { display: grid; grid-template-columns: 1fr 1fr; width: 100%; margin-top: 12px; border-top: 1px solid rgba(255, 255, 255, 0.15); }
+.botones button { height: 44px; font: 400 17px/1 var(--font-system); color: #0a84ff; }
+.botones button + button { border-left: 1px solid rgba(255, 255, 255, 0.15); }
+.botones .permitir { font-weight: 600; }

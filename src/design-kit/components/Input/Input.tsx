@@ -44,16 +44,16 @@ export function Input({ label, ayuda, error, valido, estado, className, onFocus,
         {e === 'Error' && <Icon name="alert" size={20} className={styles.alert} />}
         {e === 'Válido' && <Icon name="check" size={20} className={styles.check} />}
       </div>
-      <div id={helpId} className={styles.help} aria-live="polite">
+      {(e === 'Error' || ayuda) && <div id={helpId} className={styles.help} aria-live="polite">
         {e === 'Error' ? (
           <>
             <span className={styles.dot} aria-hidden="true" />
             <span className={styles.errorText}>{error}</span>
           </>
         ) : (
-          ayuda && <span>{ayuda}</span>
+          <span>{ayuda}</span>
         )}
-      </div>
+      </div>}
     </div>
   );
 }

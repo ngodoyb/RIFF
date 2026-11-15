@@ -8,3 +8,9 @@
 
 ## Datos no definidos en Figma
 - URL exacta de venta de cada evento: Figma solo muestra el dominio (tuboleta.com, ticketmaster.co). Se usa la raíz del dominio. [POR DEFINIR]
+
+## Onboarding
+- 02 · Iniciar sesión: el brief pide un código de 6 dígitos, pero Figma no tiene pantalla de código. Se entra directo al tocar "Iniciar sesión". [POR DEFINIR]
+- Mensaje de celular válido: Figma solo define "¡Listo! Correo válido."; para celular se usa "¡Listo! Celular válido." [POR DEFINIR]
+- Errores de Nombre/Apellido: Figma no define mensaje; el campo solo se marca válido con 2+ letras.
+- Fotos de artistas de Apple Music (src/assets/artistas): recortes 1x del Figma; exportar a 2x.

@@ -1,0 +1,15 @@
+.logo { margin-top: 25px; align-self: flex-start; }
+.titulo { margin-top: 37px; font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.texto { margin-top: 15px; font: 400 16px/1.5 var(--font-body); color: var(--text-secondary); }
+.opcion {
+  display: flex; align-items: center; gap: var(--space-4); height: 140px; margin-top: 16px; padding: 20px;
+  background: var(--surface-default); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+}
+.destacada { margin-top: 36px; border: 1.5px solid var(--brand-primary); }
+.icono { display: grid; place-items: center; width: 56px; height: 56px; border-radius: var(--radius-md); flex-shrink: 0; color: var(--text-on-primary); }
+.rosa { background: var(--brand-primary); }
+.morado { background: var(--brand-secondary); color: var(--text-primary); }
+.textos { display: flex; flex: 1; flex-direction: column; gap: 6px; }
+.textos strong { font: 700 16px/1.5 var(--font-body); }
+.textos span { font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }
+.legal { margin-top: auto; margin-bottom: 38px; }

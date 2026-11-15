@@ -1,0 +1,6 @@
+.aviso {
+  display: flex; align-items: center; gap: var(--space-3); margin-top: 9px; padding: var(--space-3) var(--space-4);
+  background: rgba(225, 153, 209, 0.14); border: 1px solid var(--brand-primary); border-radius: var(--radius-sm);
+}
+.aviso p { flex: 1; font: 400 14px/1.45 var(--font-body); }
+.avisoIcono { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 14px; background: var(--brand-primary); color: var(--text-on-primary); flex-shrink: 0; }

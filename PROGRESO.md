@@ -17,3 +17,11 @@ Segmented control · Notification card (6 tipos) · Skeleton · Metric tile · P
 Selector de presupuesto (5 rangos) · Botones Spotify / Apple Music · Logo · Screen (fondo con brillos) · Dialog.
 
 Diferencias que quedan: íconos, logos de Spotify/Apple Music y brillos del fondo son aproximaciones hasta tener los assets exportados (ver ASSETS.md).
+
+## Fase 2 · Onboarding consumidor (hecha)
+Pantallas: Splash (2012:92, estado entrada 2012:74) · 00 Selecciona tu perfil (2012:118) · 01 Crear cuenta (2012:163 / válido 2012:218) ·
+02 Iniciar sesión (2012:280) · 03 Vincular gustos (2013:200) · Spotify autorización (2061:40701) · Apple Music permiso (2061:40845) ·
+Importando (2061:40786 / 2061:40908) · Vinculado (2013:256 / 2061:41061) · Manual (2013:331) · Tu presupuesto (2102:125).
+Lógica: validación en vivo (correo o celular de 10 dígitos), botón deshabilitado hasta que todo es válido, aviso "¡Cuenta creada!" al venir del registro,
+vinculación simulada en `src/services/musicLinkService.ts` (con TODO de integración real), géneros editables, "Omitir" siempre visible.
+Diferencias: en "vincula tu música" el salto de línea depende del ancho real de Unbounded; los avatares de Spotify usan un degradado genérico.

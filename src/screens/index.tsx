@@ -2,19 +2,30 @@
 import type { ReactNode } from 'react';
 import { EnConstruccion } from './EnConstruccion';
 import { DesignKit } from './dev/DesignKit';
+import { Presupuesto } from './consumer/onboarding/Presupuesto';
+import { GustosManual } from './consumer/onboarding/GustosManual';
+import { Vinculado } from './consumer/onboarding/Vinculado';
+import { Importando } from './consumer/onboarding/Importando';
+import { ApplePermiso } from './consumer/onboarding/ApplePermiso';
+import { SpotifyAuth } from './consumer/onboarding/SpotifyAuth';
+import { VincularGustos } from './consumer/onboarding/VincularGustos';
+import { IniciarSesion } from './consumer/onboarding/IniciarSesion';
+import { CrearCuenta } from './consumer/onboarding/CrearCuenta';
+import { SeleccionPerfil } from './consumer/onboarding/SeleccionPerfil';
+import { Splash } from './consumer/onboarding/Splash';
 
 export const SCREENS: Record<string, ReactNode> = {
-  Splash: <EnConstruccion nombre="Splash" />,
-  SeleccionPerfil: <EnConstruccion nombre="SeleccionPerfil" />,
-  CrearCuenta: <EnConstruccion nombre="CrearCuenta" />,
-  IniciarSesion: <EnConstruccion nombre="IniciarSesion" />,
-  VincularGustos: <EnConstruccion nombre="VincularGustos" />,
-  SpotifyAuth: <EnConstruccion nombre="SpotifyAuth" />,
-  ApplePermiso: <EnConstruccion nombre="ApplePermiso" />,
-  Importando: <EnConstruccion nombre="Importando" />,
-  Vinculado: <EnConstruccion nombre="Vinculado" />,
-  GustosManual: <EnConstruccion nombre="GustosManual" />,
-  Presupuesto: <EnConstruccion nombre="Presupuesto" />,
+  Splash: <Splash />,
+  SeleccionPerfil: <SeleccionPerfil />,
+  CrearCuenta: <CrearCuenta />,
+  IniciarSesion: <IniciarSesion />,
+  VincularGustos: <VincularGustos />,
+  SpotifyAuth: <SpotifyAuth />,
+  ApplePermiso: <ApplePermiso />,
+  Importando: <Importando />,
+  Vinculado: <Vinculado />,
+  GustosManual: <GustosManual />,
+  Presupuesto: <Presupuesto />,
   Feed: <EnConstruccion nombre="Feed" />,
   Buscar: <EnConstruccion nombre="Buscar" />,
   Resultados: <EnConstruccion nombre="Resultados" />,
