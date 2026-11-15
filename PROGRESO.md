@@ -50,3 +50,10 @@ Pantalla 10 · Mapa con: hoja mínima/media/completa arrastrable y con teclado (
 (2020:10552), zoom en cluster (2021:19070), sin permiso de ubicación (2021:23280, Permissions API + navigator.geolocation), zona sin eventos
 (2021:27512, se detecta al mover el mapa) y cómo llegar (2021:31674, abre Apple Maps o Google Maps con la dirección). "Ver en mapa" del detalle
 abre el mapa con ese pin seleccionado.
+
+## Fase 6 · Perfil y notificaciones (hecha)
+Pantallas: 11 Perfil (2022:35853) · confirmar cierre de sesión (2022:35965) · editar presupuesto (2141:40440) · editar gustos (reusa 03 manual 2013:331) ·
+12 Notificaciones (2022:36088).
+Lógica: gustos y presupuesto editables (cambian el feed y las badges), vincular/desvincular cuenta en un paso, Ayuda con "Ver tutorial de bienvenida"
+y "Reiniciar demo" (limpia localStorage), cerrar sesión con confirmación, notificaciones que abren su evento y "Sorpréndeme" calculado con un género
+que el usuario no tiene; el punto de la campana se apaga al ver las notificaciones.

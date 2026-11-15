@@ -59,8 +59,11 @@ export function recomendar(events: EventItem[], gustos: Genre[], pesos: Partial<
 }
 
 /** "Sorpréndeme": un evento de un género que el usuario NO tiene. */
+const LEJANOS: Genre[] = ['Clásica', 'Jazz', 'Metal', 'Salsa', 'Cumbia', 'Electrónica', 'Rap', 'Indie', 'Rock'];
 export function sorprendeme(events: EventItem[], gustos: Genre[]): EventItem | undefined {
-  return events.find((e) => e.generos.every((g) => !gustos.includes(g)));
+  const candidatos = events.filter((e) => e.generos.every((g) => !gustos.includes(g)));
+  const rank = (e: EventItem) => { const i = LEJANOS.indexOf(e.generos[0]); return i === -1 ? 99 : i; };
+  return candidatos.sort((a, b) => rank(a) - rank(b))[0];
 }
 
 export type FiltrosBusqueda = { generos: Genre[]; formatos: string[]; venues: string[] };

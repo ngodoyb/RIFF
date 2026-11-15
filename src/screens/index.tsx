@@ -2,6 +2,9 @@
 import type { ReactNode } from 'react';
 import { EnConstruccion } from './EnConstruccion';
 import { DesignKit } from './dev/DesignKit';
+import { Notificaciones } from './consumer/perfil/Notificaciones';
+import { EditarPresupuesto } from './consumer/perfil/EditarPresupuesto';
+import { Perfil } from './consumer/perfil/Perfil';
 import { Mapa } from './consumer/mapa/Mapa';
 import { Calendario } from './consumer/evento/Calendario';
 import { Guardado } from './consumer/evento/Guardado';
@@ -32,6 +35,7 @@ export const SCREENS: Record<string, ReactNode> = {
   Importando: <Importando />,
   Vinculado: <Vinculado />,
   GustosManual: <GustosManual />,
+  EditarGustos: <GustosManual desdePerfil />,
   Presupuesto: <Presupuesto />,
   Feed: <Feed />,
   Buscar: <Buscar />,
@@ -40,9 +44,9 @@ export const SCREENS: Record<string, ReactNode> = {
   Guardado: <Guardado />,
   Calendario: <Calendario />,
   Mapa: <Mapa />,
-  Perfil: <EnConstruccion nombre="Perfil" />,
-  EditarPresupuesto: <EnConstruccion nombre="EditarPresupuesto" />,
-  Notificaciones: <EnConstruccion nombre="Notificaciones" />,
+  Perfil: <Perfil />,
+  EditarPresupuesto: <EditarPresupuesto />,
+  Notificaciones: <Notificaciones />,
   OrgRegistro: <EnConstruccion nombre="OrgRegistro" />,
   OrgVerificacion: <EnConstruccion nombre="OrgVerificacion" />,
   OrgPerfil: <EnConstruccion nombre="OrgPerfil" />,

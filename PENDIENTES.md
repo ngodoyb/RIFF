@@ -33,3 +33,8 @@
 - Chips de la hoja completa: Figma muestra "Hoy", "Esta semana", "Género" y uno cortado ("Pre…"). Se implementó "Precio" (dentro del presupuesto). [POR DEFINIR]
 - Kaleido, Mar de Cumbia y Jazz en la terraza no tienen pin en Figma: se ubicaron al oriente de Chapinero, fuera de la vista inicial.
 - Las transiciones de mover/acercar el mapa (300 ms) y de la hoja (280 ms) no se pudieron leer del prototipo de Figma; revisar contra el Smart animate.
+
+## Perfil
+- Botón editar (lápiz) del perfil: Figma no tiene pantalla. Se abre una hoja con Nombre, Apellido y Correo y "Guardar cambios". [POR DEFINIR]
+- Cuentas vinculadas y Ayuda: Figma no tiene pantallas. Se usan hojas de acciones con "Desvincular <cuenta>" / "Vincular Spotify" / "Vincular Apple Music" y "Ver tutorial de bienvenida" / "Reiniciar demo". [POR DEFINIR]
+- Textos "Sin definir" y "Ninguna cuenta vinculada" para filas vacías del perfil. [POR DEFINIR]

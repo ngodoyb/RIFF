@@ -74,6 +74,7 @@ export const PANTALLAS: Pantalla[] = [
       { clave: 'cerrar-sesion', nombre: '11 · Perfil — confirmar cierre de sesión', nodo: '2022:35965' },
     ] },
   { path: '/perfil/presupuesto', nombre: '11 · Perfil — editar presupuesto', nodo: '2141:40440', flujo: 'consumidor', element: SCREENS.EditarPresupuesto },
+  { path: '/perfil/gustos', nombre: '11 · Perfil — editar gustos (usa 03 · manual)', nodo: '2013:331', flujo: 'consumidor', element: SCREENS.EditarGustos },
   { path: '/notificaciones', nombre: '12 · Notificaciones', nodo: '2022:36088', flujo: 'consumidor', element: SCREENS.Notificaciones },
 
   // ---------- Organizador ----------
