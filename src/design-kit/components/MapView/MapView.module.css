@@ -1,7 +1,7 @@
-.mapa { position: absolute; left: 0; right: 0; top: 0; overflow: hidden; background: #1c1520; touch-action: none; cursor: grab; }
+.mapa { position: absolute; left: 0; right: 0; top: 0; overflow: hidden; background: var(--map-bg); touch-action: none; cursor: grab; }
 .arrastrando { cursor: grabbing; }
 .base { position: absolute; left: 0; top: 0; max-width: none; transform-origin: 0 0; user-select: none; transition: width 300ms var(--ease-standard), height 300ms var(--ease-standard), transform 300ms var(--ease-standard); }
 .arrastrando .base { transition: none; }
 .mapa > button, .mapa > span { transition: left 300ms var(--ease-standard), top 300ms var(--ease-standard); }
 .arrastrando > button, .arrastrando > span { transition: none; }
-.atribucion { position: absolute; left: 8px; bottom: 6px; font: 400 9px/1.2 var(--font-system); color: rgba(255, 255, 255, 0.5); pointer-events: none; }
+.atribucion { position: absolute; left: 8px; bottom: 6px; font: 400 9px/1.2 var(--font-system); color: var(--text-faint); pointer-events: none; }

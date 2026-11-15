@@ -97,7 +97,7 @@ export const PANTALLAS: Pantalla[] = [
     ] },
   { path: '/org/revision', nombre: '07 · Evento en revisión', nodo: '2026:40550', flujo: 'organizador', element: SCREENS.OrgRevision },
   { path: '/org/publicado', nombre: '08 · Confirmación de publicación', nodo: '2026:40614', flujo: 'organizador', element: SCREENS.OrgPublicado },
-  { path: '/org/metricas/:id', ejemplo: '/org/metricas/kaleido', nombre: '09 · Métricas del evento', nodo: '2026:40682', flujo: 'organizador', element: SCREENS.OrgMetricas },
+  { path: '/org/metricas/:id', ejemplo: '/org/metricas/bambule-viernes-reggaeton', nombre: '09 · Métricas del evento', nodo: '2026:40682', flujo: 'organizador', element: SCREENS.OrgMetricas },
   { path: '/org/notificaciones', nombre: '10 · Notificaciones del organizador', nodo: '2026:40788', flujo: 'organizador', element: SCREENS.OrgNotificaciones },
 
   // ---------- Desarrollo ----------

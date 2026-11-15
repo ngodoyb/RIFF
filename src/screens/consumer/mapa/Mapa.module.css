@@ -8,7 +8,7 @@
 .listaScroll { flex: 1; min-height: 0; overflow-y: auto; padding-bottom: 16px; scrollbar-width: none; }
 .cabecera { display: flex; justify-content: space-between; align-items: flex-start; }
 .cerrar { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 22px; background: var(--surface-default); }
-.mini { margin-top: 12px; padding: 12px; border: 1px solid var(--brand-primary); border-radius: var(--radius-md); background: rgba(225, 153, 209, 0.1); }
+.mini { margin-top: 12px; padding: 12px; border: 1px solid var(--brand-primary); border-radius: var(--radius-md); background: var(--tint-primary-soft); }
 .miniArriba { display: flex; gap: var(--space-3); }
 .miniPortada { width: 88px; height: 88px; border-radius: var(--radius-sm); overflow: hidden; flex-shrink: 0; }
 .miniTexto { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 4px; }

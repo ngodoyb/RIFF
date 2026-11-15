@@ -38,6 +38,33 @@
   --apple-start: #fa233b;
   --apple-end: #fb5c74;
 
+  /* ---- Tintes, velos y colores de sistema (derivados de Figma) ---- */
+  --tint-primary: rgba(225, 153, 209, 0.14);
+  --tint-primary-soft: rgba(225, 153, 209, 0.1);
+  --tint-primary-faint: rgba(225, 153, 209, 0.08);
+  --glow-primary: rgba(225, 153, 209, 0.5);
+  --glow-primary-soft: rgba(225, 153, 209, 0.35);
+  --glow-primary-faint: rgba(225, 153, 209, 0.25);
+  --tint-secondary: rgba(118, 91, 163, 0.35);
+  --tint-secondary-soft: rgba(118, 91, 163, 0.25);
+  --tint-danger: rgba(147, 58, 80, 0.18);
+  --tint-danger-strong: rgba(147, 58, 80, 0.2);
+  --tint-danger-icon: rgba(147, 58, 80, 0.4);
+  --scrim-strong: rgba(16, 3, 16, 0.72);
+  --scrim: rgba(16, 3, 16, 0.6);
+  --scrim-soft: rgba(16, 3, 16, 0.55);
+  --glass-cta: rgba(16, 3, 16, 0.92);
+  --bg-base-transparent: rgba(16, 3, 16, 0);
+  --tint-spotify: rgba(30, 215, 96, 0.12);
+  --tint-apple: rgba(250, 35, 59, 0.12);
+  --system-alert: rgba(42, 30, 46, 0.94);
+  --system-sheet: rgba(58, 48, 64, 0.94);
+  --shadow-logo-color: rgba(15, 3, 15, 0.6);
+  --text-faint: rgba(255, 255, 255, 0.5);
+  --map-bg: #1c1520;
+  --black: #000;
+  --white: #fff;
+
   --gradient-brand: linear-gradient(90deg, #ffffff 0%, var(--brand-primary) 50%, var(--brand-accent) 100%);
   --gradient-progress: linear-gradient(90deg, var(--brand-secondary), var(--brand-primary));
   --gradient-skeleton: linear-gradient(90deg, var(--skeleton-base), var(--skeleton-shine) 50%, var(--skeleton-base));

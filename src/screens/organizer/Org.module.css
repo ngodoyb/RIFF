@@ -17,7 +17,7 @@
 .nota > span:first-child { color: var(--brand-primary); }
 .alertaRoja {
   display: flex; gap: var(--space-2); padding: 12px 16px; border: 1px solid var(--brand-accent); border-radius: var(--radius-sm);
-  background: rgba(147, 58, 80, 0.18); font: 400 12px/1.4 var(--font-body);
+  background: var(--tint-danger); font: 400 12px/1.4 var(--font-body);
 }
 .alertaRoja > span:first-child { color: var(--brand-accent); }
 .chips { display: flex; flex-wrap: wrap; gap: var(--space-2); }

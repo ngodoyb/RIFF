@@ -47,12 +47,6 @@ export function rangoPrecio(min: number | null, max: number | null, texto?: stri
   return `${pesos(min)} – ${pesos(max)}`;
 }
 
-export function desde(min: number | null, texto?: string): string {
-  if (min === null) return texto ?? '—';
-  if (min === 0) return 'Gratis';
-  return `desde ${pesos(min)}`;
-}
-
 export function km(n: number): string {
   return `a ${n.toLocaleString('es-CO', { maximumFractionDigits: 1 })} km`;
 }

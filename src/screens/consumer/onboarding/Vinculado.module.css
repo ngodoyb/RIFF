@@ -1,7 +1,7 @@
 .titulo { margin-top: 9px; font: 700 24px/1.25 var(--font-display); letter-spacing: -0.015em; white-space: nowrap; }
 .cuenta { display: flex; align-items: center; gap: var(--space-3); margin-top: 18px; padding: 12px 16px; border-radius: var(--radius-md); }
-.verde { background: rgba(30, 215, 96, 0.12); border: 1px solid var(--spotify-green); }
-.roja { background: rgba(250, 35, 59, 0.12); border: 1px solid var(--apple-start); }
+.verde { background: var(--tint-spotify); border: 1px solid var(--spotify-green); }
+.roja { background: var(--tint-apple); border: 1px solid var(--apple-start); }
 .cuentaTexto { display: flex; flex: 1; flex-direction: column; }
 .cuentaTexto strong { font: 700 16px/1.5 var(--font-body); }
 .cuentaTexto span { font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }

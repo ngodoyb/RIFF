@@ -2,14 +2,14 @@
 .medalla {
   display: grid; place-items: center; width: 88px; height: 88px; border-radius: 50%;
   background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent)); color: var(--text-on-primary);
-  box-shadow: 0 0 40px rgba(225, 153, 209, 0.35);
+  box-shadow: 0 0 40px var(--glow-primary-soft);
 }
 .titulo { margin-top: 20px; font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
 .texto { margin-top: 16px; font: 400 16px/1.5 var(--font-body); color: var(--text-secondary); }
 .fila { margin-top: 20px; }
 .recordatorio {
   display: flex; align-items: center; gap: var(--space-3); margin-top: 16px; padding: 16px;
-  border: 1px solid var(--brand-primary); border-radius: var(--radius-md); background: rgba(225, 153, 209, 0.08);
+  border: 1px solid var(--brand-primary); border-radius: var(--radius-md); background: var(--tint-primary-faint);
 }
 .campana { display: grid; place-items: center; width: 40px; height: 40px; border-radius: var(--radius-sm); flex-shrink: 0; background: var(--brand-primary); color: var(--text-on-primary); }
 .recTexto { display: flex; flex: 1; flex-direction: column; gap: 2px; }

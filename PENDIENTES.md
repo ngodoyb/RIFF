@@ -44,3 +44,8 @@
 - Editar un evento existente y "Corregir" reutilizan el formulario precargado (no hay pantalla de edición en Figma).
 - Eventos publicados por el organizador: se ubican en el mapa en la posición de Bambulé (Zona Rosa) porque el formulario no geocodifica la dirección. Con backend: geocodificar.
 - Métricas de eventos nuevos empiezan en 0; la serie de 7 días de la gráfica es la del Figma (4–10 oct).
+
+## Revisión final
+- Animaciones: el MCP de Figma no expone las transiciones del prototipo (Smart animate, duración y curva). Se usan fundidos de 200 ms
+  y deslizamientos de 250–300 ms con cubic-bezier(0.2, 0, 0, 1); ajustar en tokens (`--dur-fast`, `--ease-standard`) cuando se confirmen.
+- Waze: el brief lo menciona, pero 10 · Mapa — cómo llegar (2021:31674) solo tiene Apple Maps y Google Maps; se dejaron esas dos.

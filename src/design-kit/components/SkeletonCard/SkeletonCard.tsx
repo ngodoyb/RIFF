@@ -27,6 +27,3 @@ export function SkeletonRow({ className }: { className?: string }) {
   );
 }
 
-export function SkeletonBlock({ width, height, radius = 8, className }: { width: number | string; height: number; radius?: number; className?: string }) {
-  return <div className={cx(styles.s, className)} style={{ width, height, borderRadius: radius }} aria-hidden="true" />;
-}

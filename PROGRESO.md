@@ -67,3 +67,20 @@ con los obligatorios, "Atrás" conserva lo escrito, tooltips de Organizadores y 
 08 Publicado (2026:40614) · 09 Métricas (2026:40682, gráfica SVG hecha a mano, mejor día y tasa de guardado) · 10 Notificaciones (2026:40788).
 Conexión con el consumidor: "(Prototipo) Simular aprobación" publica el evento y aparece en feed, búsqueda, filtros y mapa del consumidor
 (probado de punta a punta con Playwright, sin errores en consola).
+
+## Fase 8 · Revisión final (hecha)
+- Las 65 rutas y estados de `/dev/pantallas` se recorrieron con Playwright a 375 × 812: cero errores de consola,
+  sin botones sin nombre y áreas táctiles ≥ 44 px (se agrandaron los botones "i" del formulario).
+- Flujo completo del consumidor probado de punta a punta (splash → registro con error en vivo → login → Spotify →
+  presupuesto → tutorial → guardar/deshacer → calendario → detalle → aviso de salida → perfil → cerrar sesión).
+- Flujo completo del organizador probado (registro → verificación con archivos → perfil → panel → formulario de 4 pasos
+  con "Atrás" que conserva lo escrito → revisión → simular aprobación → el evento aparece en la búsqueda del consumidor → cancelar).
+- Corregidos: bucle de renderizado del formulario del organizador; la card resaltada del tutorial tapaba "Siguiente".
+- Colores sueltos movidos a tokens con nombre; eliminado código sin uso (Dialog, SkeletonBlock, helpers).
+- README reescrito para programadores.
+
+### Diferencias con Figma que quedan
+- Íconos, logos de Spotify/Apple Music y apps de la hoja de compartir son aproximaciones (no se pudo descargar de figma.com
+  desde esta sesión). Portadas, mapa y fotos son recortes 1x de capturas de Figma. Ver ASSETS.md.
+- Los brillos del fondo se recrean con CSS (color + desenfoque); pueden variar levemente frente al SVG de Figma.
+- Las duraciones de las transiciones no se pudieron leer del prototipo; se usaron 200–300 ms (ver PENDIENTES.md).

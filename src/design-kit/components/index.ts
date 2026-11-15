@@ -7,7 +7,6 @@ export * from './BudgetSelector';
 export * from './Button';
 export * from './Chip';
 export * from './Cover';
-export * from './Dialog';
 export * from './EventCard';
 export * from './EventRow';
 export * from './Icon';

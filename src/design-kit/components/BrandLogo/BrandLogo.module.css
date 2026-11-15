@@ -1,7 +1,7 @@
 .logo { display: inline-grid; place-items: center; flex-shrink: 0; }
-.spotify { border-radius: 50%; background: var(--spotify-green); color: #000; }
-.spotifyNegro { border-radius: 50%; background: #000; color: var(--spotify-green); }
-.apple { border-radius: 22%; background: linear-gradient(180deg, var(--apple-end), var(--apple-start)); color: #fff; }
+.spotify { border-radius: 50%; background: var(--spotify-green); color: var(--black); }
+.spotifyNegro { border-radius: 50%; background: var(--black); color: var(--spotify-green); }
+.apple { border-radius: 22%; background: linear-gradient(180deg, var(--apple-end), var(--apple-start)); color: var(--white); }
 .riff {
   border-radius: 22%; background: var(--bg-base); border: 1px solid var(--border-subtle);
   font-family: var(--font-display); font-weight: 700; letter-spacing: -0.03em;

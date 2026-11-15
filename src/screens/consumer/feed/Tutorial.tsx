@@ -17,7 +17,8 @@ export function Tutorial({ paso, onPaso, onFin }: Props) {
   useEffect(() => { ref.current?.focus(); }, [paso]);
   const ultimo = paso === PASOS.length;
   return (
-    <div className={styles.capa}>
+    <>
+      <div className={styles.capa} aria-hidden="true" />
       {paso === 3 && <span className={styles.resaltarMapa} aria-hidden="true" />}
       <div ref={ref} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby="tuto-titulo" className={styles.card} style={{ top: p.top }}>
         <p className={styles.paso}>{paso} de 3</p>
@@ -33,6 +34,6 @@ export function Tutorial({ paso, onPaso, onFin }: Props) {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }
