@@ -54,6 +54,7 @@ type State = {
   guardados: Record<string, Reminder>;
   pesosGenero: Partial<Record<Genre, number>>;
   tutorialVisto: boolean;
+  notisVistas: boolean;
   recientes: string[];
   org: OrgPerfil;
   verificacion: Verificacion;
@@ -71,6 +72,7 @@ const INICIAL: State = {
   guardados: {},
   pesosGenero: {},
   tutorialVisto: false,
+  notisVistas: false,
   recientes: [],
   org: { nombre: '', contacto: '', tipo: null, zona: '', descripcion: '', ubicacion: '', redes: '' },
   verificacion: { estado: 'sin-enviar', docs: {} },

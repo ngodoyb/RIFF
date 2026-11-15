@@ -14,3 +14,9 @@
 - Mensaje de celular válido: Figma solo define "¡Listo! Correo válido."; para celular se usa "¡Listo! Celular válido." [POR DEFINIR]
 - Errores de Nombre/Apellido: Figma no define mensaje; el campo solo se marca válido con 2+ letras.
 - Fotos de artistas de Apple Music (src/assets/artistas): recortes 1x del Figma; exportar a 2x.
+
+## Feed y búsqueda
+- El prompt pide filtros de fecha y precio, pero 05 · Búsqueda y filtros (2015:1442) solo tiene género, formato de acto y tipo de venue. No se agregaron. El presupuesto del perfil marca dentro/fuera en el detalle. [POR DEFINIR]
+- "Más cercanos ▾" (06 · Resultados): Figma no muestra las otras opciones de orden; se ordena por distancia y el control no despliega nada. [POR DEFINIR]
+- Eventos del cluster "Zona T" (House en la azotea, DJ set: Pulso Andino, Minimal en el parque, Techno al amanecer), Kaleido, Mar de Cumbia en vivo y Jazz en la terraza:
+  Figma solo da nombre, zona, pin y a veces precio/fecha. Fecha, dirección, descripción y URL son datos de prueba (`prueba: true`, "[POR DEFINIR]").

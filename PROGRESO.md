@@ -25,3 +25,11 @@ Importando (2061:40786 / 2061:40908) · Vinculado (2013:256 / 2061:41061) · Man
 Lógica: validación en vivo (correo o celular de 10 dígitos), botón deshabilitado hasta que todo es válido, aviso "¡Cuenta creada!" al venir del registro,
 vinculación simulada en `src/services/musicLinkService.ts` (con TODO de integración real), géneros editables, "Omitir" siempre visible.
 Diferencias: en "vincula tu música" el salto de línea depende del ancho real de Unbounded; los avatares de Spotify usan un degradado genérico.
+
+## Fase 3 · Feed y búsqueda (hecha)
+Pantallas: 04 Feed (2014:299) con estados cargando (2014:612), sin conexión (2014:688, usa navigator.onLine y eventos online/offline) y tutorial 1–3
+(2014:759/813/863, solo la primera vez) · 05 Búsqueda y filtros (2015:1442) y modo escribir (2170:3564, resultados mientras se teclea) ·
+06 Resultados (2015:1542) con vacío (2015:1736, sugerencias "Prueba con" calculadas) y cargando (2015:1820).
+Lógica: secciones recomendado (gustos + pesos de guardados + presupuesto + cercanía), cerca de ti (distancia) y esta semana (fecha demo);
+filtros reales por género, formato y venue (OR dentro de cada grupo, AND entre grupos), búsqueda sin tildes en evento, artista y venue,
+chips removibles, búsquedas recientes, guardar desde card/fila con toast y "Deshacer".

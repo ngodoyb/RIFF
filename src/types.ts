@@ -6,7 +6,7 @@ export type Genre =
   | 'Reggaetón' | 'Urbano' | 'Trap latino' | 'Trap argentino' | 'Pop latino' | 'Clásica' | 'Metal';
 
 export type ActFormat = 'DJ set' | 'En vivo' | 'Acústico' | 'Festival';
-export type VenueType = 'Club' | 'Bar' | 'Teatro' | 'Al aire libre' | 'Arena';
+export type VenueType = 'Club' | 'Bar' | 'Teatro' | 'Al aire libre' | 'Estadio';
 export type AgeRating = 'Todo público' | '+7' | '+12' | '+14' | '+15' | '+18';
 export type CoverKey =
   | 'estilo-1' | 'estilo-2' | 'estilo-3' | 'estilo-4' | 'estilo-5' | 'estilo-6'

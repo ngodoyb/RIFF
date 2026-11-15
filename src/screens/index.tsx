@@ -2,6 +2,9 @@
 import type { ReactNode } from 'react';
 import { EnConstruccion } from './EnConstruccion';
 import { DesignKit } from './dev/DesignKit';
+import { Resultados } from './consumer/feed/Resultados';
+import { Buscar } from './consumer/feed/Buscar';
+import { Feed } from './consumer/feed/Feed';
 import { Presupuesto } from './consumer/onboarding/Presupuesto';
 import { GustosManual } from './consumer/onboarding/GustosManual';
 import { Vinculado } from './consumer/onboarding/Vinculado';
@@ -26,9 +29,9 @@ export const SCREENS: Record<string, ReactNode> = {
   Vinculado: <Vinculado />,
   GustosManual: <GustosManual />,
   Presupuesto: <Presupuesto />,
-  Feed: <EnConstruccion nombre="Feed" />,
-  Buscar: <EnConstruccion nombre="Buscar" />,
-  Resultados: <EnConstruccion nombre="Resultados" />,
+  Feed: <Feed />,
+  Buscar: <Buscar />,
+  Resultados: <Resultados />,
   Detalle: <EnConstruccion nombre="Detalle" />,
   Guardado: <EnConstruccion nombre="Guardado" />,
   Calendario: <EnConstruccion nombre="Calendario" />,

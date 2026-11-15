@@ -62,3 +62,23 @@ export function recomendar(events: EventItem[], gustos: Genre[], pesos: Partial<
 export function sorprendeme(events: EventItem[], gustos: Genre[]): EventItem | undefined {
   return events.find((e) => e.generos.every((g) => !gustos.includes(g)));
 }
+
+export type FiltrosBusqueda = { generos: Genre[]; formatos: string[]; venues: string[] };
+
+/**
+ * Filtra por texto (evento, artista, venue) y por chips: OR dentro de cada grupo, AND entre grupos.
+ * Si el texto es exactamente un género, se trata como filtro de género.
+ */
+export function filtrar(events: EventItem[], q: string, f: FiltrosBusqueda): EventItem[] {
+  const t = normalizar(q.trim());
+  const esGenero = (g: string) => normalizar(g) === t;
+  const generoTexto = t && events.some((e) => e.generos.some(esGenero)) ? t : '';
+  const generos = f.generos.map(normalizar);
+  if (generoTexto && !generos.includes(generoTexto)) generos.push(generoTexto);
+  return events
+    .filter((e) => (generoTexto || !t ? true : buscar([e], q).length > 0))
+    .filter((e) => !generos.length || e.generos.some((g) => generos.includes(normalizar(g))))
+    .filter((e) => !f.formatos.length || f.formatos.includes(e.formato))
+    .filter((e) => !f.venues.length || f.venues.includes(e.venueTipo))
+    .sort((a, b) => a.distanciaKm - b.distanciaKm);
+}
