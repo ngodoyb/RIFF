@@ -20,3 +20,9 @@
 - "Más cercanos ▾" (06 · Resultados): Figma no muestra las otras opciones de orden; se ordena por distancia y el control no despliega nada. [POR DEFINIR]
 - Eventos del cluster "Zona T" (House en la azotea, DJ set: Pulso Andino, Minimal en el parque, Techno al amanecer), Kaleido, Mar de Cumbia en vivo y Jazz en la terraza:
   Figma solo da nombre, zona, pin y a veces precio/fecha. Fecha, dirección, descripción y URL son datos de prueba (`prueba: true`, "[POR DEFINIR]").
+
+## Evento y calendario
+- Hoja de compartir: los íconos de Mensajes/WhatsApp/Correo/Instagram son genéricos (exportar los de Figma). Instagram no permite compartir por URL: abre instagram.com.
+- "Copiar enlace" muestra el toast "Enlace copiado" (texto no definido en Figma). [POR DEFINIR]
+- URL pública de un evento: se usa riff.app/e/<id> como en Figma (riff.app/e/omar-courtz-segunda-fecha); el slug real está [POR DEFINIR].
+- 09 · Calendario — sin eventos marca el 10 como hoy y la versión con eventos el 12; se usa el 12 (lun 12 oct 2026) como "hoy" de la demo.

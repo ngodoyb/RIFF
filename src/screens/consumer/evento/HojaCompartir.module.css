@@ -1,0 +1,17 @@
+/* Hoja nativa de compartir (sistema): colores del sistema según Figma 2018:1866. */
+.capa { position: absolute; inset: 0; z-index: 50; display: flex; align-items: flex-end; background: rgba(16, 3, 16, 0.55); animation: fade var(--dur-fast) var(--ease-standard); }
+.hoja { width: 100%; padding-bottom: 40px; border-radius: 14px 14px 0 0; background: rgba(42, 36, 48, 0.97); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); animation: up 250ms var(--ease-standard); }
+.cabecera { display: flex; align-items: center; gap: 12px; padding: 16px; border-bottom: 1px solid var(--border-subtle); }
+.mini { width: 48px; height: 48px; border-radius: 8px; overflow: hidden; flex-shrink: 0; }
+.cabTexto { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 2px; white-space: nowrap; }
+.cabTexto strong { overflow: hidden; text-overflow: ellipsis; font: 700 15px/1.3 var(--font-system); }
+.cabTexto span { overflow: hidden; text-overflow: ellipsis; font: 400 13px/1.3 var(--font-system); color: var(--text-secondary); }
+.cerrar { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 22px; background: rgba(255, 255, 255, 0.14); flex-shrink: 0; }
+.apps { display: flex; justify-content: space-between; padding: 16px 24px; }
+.app { display: flex; flex-direction: column; align-items: center; gap: 6px; font: 400 11px/1.2 var(--font-system); }
+.app > span { display: grid; place-items: center; width: 60px; height: 60px; border-radius: 14px; color: #fff; }
+.lista { margin: 8px 16px 0; border-radius: 12px; background: rgba(255, 255, 255, 0.08); overflow: hidden; }
+.lista button { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 50px; padding: 0 16px; font: 400 16px/1 var(--font-system); }
+.lista button + button { border-top: 1px solid var(--border-subtle); }
+@keyframes fade { from { opacity: 0; } }
+@keyframes up { from { transform: translateY(100%); } }

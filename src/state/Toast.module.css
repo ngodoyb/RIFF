@@ -1,3 +1,5 @@
-.zona { position: absolute; left: var(--gutter); right: var(--gutter); bottom: calc(var(--tabbar-h) + var(--space-3)); z-index: 60; pointer-events: none; }
+.zona { position: absolute; left: var(--gutter); right: var(--gutter); bottom: var(--bottom-safe); z-index: 60; pointer-events: none; }
+:global(.app-frame:has(nav[aria-label="Principal"])) .zona { bottom: calc(var(--tabbar-h) + var(--space-3)); }
+:global(.app-frame:has([data-cta])) .zona { bottom: 132px; }
 .toast { pointer-events: auto; animation: entra var(--dur-fast) var(--ease-standard); }
 @keyframes entra { from { opacity: 0; transform: translateY(8px); } }

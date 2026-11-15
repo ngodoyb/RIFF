@@ -33,3 +33,12 @@ Pantallas: 04 Feed (2014:299) con estados cargando (2014:612), sin conexión (20
 Lógica: secciones recomendado (gustos + pesos de guardados + presupuesto + cercanía), cerca de ti (distancia) y esta semana (fecha demo);
 filtros reales por género, formato y venue (OR dentro de cada grupo, AND entre grupos), búsqueda sin tildes en evento, artista y venue,
 chips removibles, búsquedas recientes, guardar desde card/fila con toast y "Deshacer".
+
+## Fase 4 · Evento, guardados y calendario (hecha)
+Pantallas: 07 Detalle (2018:1764 y las 5 variantes por evento 2084:*) · compartir (2018:1866) · aviso de salida (2018:2025) ·
+08 Guardado y recordatorio (2018:2140) · editar recordatorio (2018:2212) · 09 Calendario (2019:1920) · vacío (2019:2115).
+Lógica: badge dentro/fuera del presupuesto con "Tu rango", "Precio aún no publicado" si no hay precio; Ver en Google Maps;
+compartir con navigator.share o la hoja de Figma (Mensajes, WhatsApp, Correo, Instagram, Copiar enlace, Añadir a Calendario (.ics), Guardar en RIFF);
+aviso "¿Salir de RIFF?" que abre la URL de venta en otra pestaña; guardar desde el detalle lleva a 08 con toast "Deshacer";
+recordatorio editable (1 h, 3 h, 1 día, 2 días, sin recordatorio) con la fecha calculada; calendario navegable por meses con días guardados y hoy.
+Nuevos componentes del kit: ActionSheet y Alert.

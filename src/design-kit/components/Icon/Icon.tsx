@@ -19,7 +19,7 @@ export type IconName =
   | 'mic' | 'users' | 'music' | 'shuffle' | 'bell' | 'trend' | 'pencil' | 'eye' | 'sliders' | 'share'
   | 'external' | 'ticket' | 'upload' | 'file' | 'plus' | 'copy' | 'link' | 'info' | 'lock' | 'wifi-off'
   | 'logout' | 'help' | 'sparkles' | 'duplicate' | 'chart' | 'car' | 'walk' | 'location-off' | 'camera'
-  | 'instagram' | 'globe' | 'filter' | 'spotify' | 'apple' | 'compass';
+  | 'instagram' | 'globe' | 'filter' | 'spotify' | 'apple' | 'compass' | 'chat' | 'mail';
 
 type IconProps = {
   name: IconName;

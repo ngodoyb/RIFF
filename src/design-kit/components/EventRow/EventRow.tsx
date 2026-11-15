@@ -16,6 +16,7 @@ type Props = {
   /** Texto de fecha; por defecto "sáb 17 oct · 8:00 p. m.". */
   fecha?: string;
   titulo?: string;
+  precio?: string;
   onClick?: () => void;
   className?: string;
 };
@@ -28,7 +29,7 @@ export function precioCorto(e: EventItem): string {
   return `desde ${pesos(e.precioMin)}`;
 }
 
-export function EventRow({ evento, guardado = false, onToggleSave, subtitulo, fecha, titulo, onClick, className }: Props) {
+export function EventRow({ evento, guardado = false, onToggleSave, subtitulo, fecha, titulo, precio, onClick, className }: Props) {
   return (
     <article className={cx(styles.row, className)}>
       <div className={styles.mini}>
@@ -39,7 +40,7 @@ export function EventRow({ evento, guardado = false, onToggleSave, subtitulo, fe
         <p className={styles.sub}>{subtitulo ?? `${evento.venueCorto} · ${km(evento.distanciaKm)}`}</p>
         <p className={styles.meta}>
           <span className={styles.fecha}>{fecha ?? fechaEvento(evento.inicio, evento.fin)}</span>
-          <strong className={styles.precio}>{precioCorto(evento)}</strong>
+          <strong className={styles.precio}>{precio ?? precioCorto(evento)}</strong>
         </p>
       </Link>
       {onToggleSave && <SaveButton guardado={guardado} onToggle={onToggleSave} titulo={evento.titulo} />}
