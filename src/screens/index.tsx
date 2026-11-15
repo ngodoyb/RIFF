@@ -2,6 +2,7 @@
 import type { ReactNode } from 'react';
 import { EnConstruccion } from './EnConstruccion';
 import { DesignKit } from './dev/DesignKit';
+import { Mapa } from './consumer/mapa/Mapa';
 import { Calendario } from './consumer/evento/Calendario';
 import { Guardado } from './consumer/evento/Guardado';
 import { Detalle } from './consumer/evento/Detalle';
@@ -38,7 +39,7 @@ export const SCREENS: Record<string, ReactNode> = {
   Detalle: <Detalle />,
   Guardado: <Guardado />,
   Calendario: <Calendario />,
-  Mapa: <EnConstruccion nombre="Mapa" />,
+  Mapa: <Mapa />,
   Perfil: <EnConstruccion nombre="Perfil" />,
   EditarPresupuesto: <EnConstruccion nombre="EditarPresupuesto" />,
   Notificaciones: <EnConstruccion nombre="Notificaciones" />,

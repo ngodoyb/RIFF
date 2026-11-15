@@ -42,3 +42,11 @@ compartir con navigator.share o la hoja de Figma (Mensajes, WhatsApp, Correo, In
 aviso "¿Salir de RIFF?" que abre la URL de venta en otra pestaña; guardar desde el detalle lleva a 08 con toast "Deshacer";
 recordatorio editable (1 h, 3 h, 1 día, 2 días, sin recordatorio) con la fecha calculada; calendario navegable por meses con días guardados y hoy.
 Nuevos componentes del kit: ActionSheet y Alert.
+
+## Fase 5 · Mapa (hecha)
+Componente `MapView` (src/design-kit/components/MapView): mapa base exportado del Figma (2011:72), sin librería de mapas; pines por género con
+las posiciones de Figma, cluster "Zona T" que se separa al acercar (escala 1.6 como en 2021:19070), ubicación del usuario y arrastre con el dedo.
+Pantalla 10 · Mapa con: hoja mínima/media/completa arrastrable y con teclado (2020:1989 / 2020:6244 / 2020:14868), pin seleccionado con mini-card
+(2020:10552), zoom en cluster (2021:19070), sin permiso de ubicación (2021:23280, Permissions API + navigator.geolocation), zona sin eventos
+(2021:27512, se detecta al mover el mapa) y cómo llegar (2021:31674, abre Apple Maps o Google Maps con la dirección). "Ver en mapa" del detalle
+abre el mapa con ese pin seleccionado.

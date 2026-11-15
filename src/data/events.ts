@@ -15,7 +15,8 @@ export const EVENTS: EventItem[] = [
     categoria: 'Arena',
     venue: 'Movistar Arena',
     venueCorto: 'Movistar Arena',
-    zona: 'Teusaquillo',
+    tituloCorto: 'Omar Courtz',
+    zona: 'Galerías',
     direccion: 'Dg. 61c # 26-36',
     mapa: { x: 286, y: 691 },
     distanciaKm: 3.4,
@@ -169,9 +170,9 @@ export const EVENTS: EventItem[] = [
   // ---- Eventos que aparecen en Figma sin detalle completo (cluster "Zona T", notificaciones, Event card) ----
   // Los campos marcados [POR DEFINIR] no están en Figma: ver PENDIENTES.md.
   ...([
-    ['kaleido', 'Kaleido: noche de techno', 'Kaleido', ['Techno', 'Electrónica'], 'DJ set', 'Club', 'Club', 'Video Club', 'Chapinero', { x: 392, y: 752 }, 2.1, '2026-10-16T22:00', 60_000, 90_000, '+18', 'estilo-1'],
-    ['mar-de-cumbia', 'Mar de Cumbia en vivo', 'Mar de Cumbia', ['Cumbia'], 'En vivo', 'Bar', 'Bar', 'Latino Power', 'Chapinero', { x: 404, y: 716 }, 1.2, '2026-10-17T20:00', 45_000, 45_000, '+18', 'estilo-4'],
-    ['jazz-en-la-terraza', 'Jazz en la terraza', 'Jazz en la terraza', ['Jazz'], 'Acústico', 'Bar', 'Bar', 'Terraza Zona G', 'Zona G', { x: 446, y: 650 }, 2.4, '2026-10-15T20:00', 35_000, 35_000, '+18', 'estilo-6'],
+    ['kaleido', 'Kaleido: noche de techno', 'Kaleido', ['Techno', 'Electrónica'], 'DJ set', 'Club', 'Club', 'Video Club', 'Chapinero', { x: 530, y: 760 }, 2.1, '2026-10-16T22:00', 60_000, 90_000, '+18', 'estilo-1'],
+    ['mar-de-cumbia', 'Mar de Cumbia en vivo', 'Mar de Cumbia', ['Cumbia'], 'En vivo', 'Bar', 'Bar', 'Latino Power', 'Chapinero', { x: 548, y: 705 }, 1.2, '2026-10-17T20:00', 45_000, 45_000, '+18', 'estilo-4'],
+    ['jazz-en-la-terraza', 'Jazz en la terraza', 'Jazz en la terraza', ['Jazz'], 'Acústico', 'Bar', 'Bar', 'Terraza Zona G', 'Zona G', { x: 566, y: 640 }, 2.4, '2026-10-15T20:00', 35_000, 35_000, '+18', 'estilo-6'],
     ['house-en-la-azotea', 'House en la azotea', 'House en la azotea', ['House', 'Electrónica'], 'DJ set', 'Al aire libre', 'Al aire libre', 'Azotea Zona T', 'Zona T', { x: 396, y: 553 }, 3.0, '2026-10-17T21:00', 40_000, 70_000, '+18', 'estilo-3'],
     ['pulso-andino', 'DJ set: Pulso Andino', 'Pulso Andino', ['Cumbia', 'Electrónica'], 'DJ set', 'Club', 'Club', 'Club Zona T', 'Zona T', { x: 449, y: 526 }, 3.2, '2026-10-16T23:00', 30_000, 50_000, '+18', 'estilo-2'],
     ['minimal-en-el-parque', 'Minimal en el parque', 'Minimal en el parque', ['Indie', 'Electrónica'], 'DJ set', 'Al aire libre', 'Al aire libre', 'Parque de la 93', 'Zona T', { x: 472, y: 584 }, 3.3, '2026-10-18T15:00', 0, 0, 'Todo público', 'estilo-6'],

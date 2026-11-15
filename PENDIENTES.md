@@ -26,3 +26,10 @@
 - "Copiar enlace" muestra el toast "Enlace copiado" (texto no definido en Figma). [POR DEFINIR]
 - URL pública de un evento: se usa riff.app/e/<id> como en Figma (riff.app/e/omar-courtz-segunda-fecha); el slug real está [POR DEFINIR].
 - 09 · Calendario — sin eventos marca el 10 como hoy y la versión con eventos el 12; se usa el 12 (lun 12 oct 2026) como "hoy" de la demo.
+
+## Mapa
+- 10 · Mapa — sin permiso de ubicación: la tarjeta "Activa tu ubicación" se sale del frame en Figma; se dejó dentro de los márgenes de 16 px.
+- Títulos de la hoja: Figma usa cifras fijas ("12 eventos cerca de ti", "38 eventos en toda Bogotá"); la app muestra el conteo real de eventos.
+- Chips de la hoja completa: Figma muestra "Hoy", "Esta semana", "Género" y uno cortado ("Pre…"). Se implementó "Precio" (dentro del presupuesto). [POR DEFINIR]
+- Kaleido, Mar de Cumbia y Jazz en la terraza no tienen pin en Figma: se ubicaron al oriente de Chapinero, fuera de la vista inicial.
+- Las transiciones de mover/acercar el mapa (300 ms) y de la hoja (280 ms) no se pudieron leer del prototipo de Figma; revisar contra el Smart animate.

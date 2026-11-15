@@ -24,6 +24,8 @@ export type EventItem = {
   venue: string;
   /** Nombre corto que usa la card del feed (p. ej. "Teatro Gaitán"). */
   venueCorto: string;
+  /** Título corto en las filas del mapa (p. ej. "Omar Courtz"). */
+  tituloCorto?: string;
   zona: string;
   direccion: string;
   /** Posición del pin en el mapa base de Figma (600 × 1000 px). */

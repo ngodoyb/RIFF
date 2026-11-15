@@ -14,6 +14,7 @@ export * from './Icon';
 export * from './Input';
 export * from './Logo';
 export * from './MapPin';
+export * from './MapView';
 export * from './MetricTile';
 export * from './MusicButton';
 export * from './NavBar';
