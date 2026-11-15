@@ -1,0 +1,15 @@
+.row {
+  position: relative; display: flex; align-items: center; gap: var(--space-3);
+  width: 100%; padding: var(--space-3);
+  background: var(--surface-default); border-radius: var(--radius-md);
+}
+.mini { width: 72px; height: 72px; flex-shrink: 0; overflow: hidden; border-radius: var(--radius-sm); }
+.info { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: var(--space-1); white-space: nowrap; }
+.info::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius-md); }
+.row > button { position: relative; z-index: 1; }
+.titulo, .sub, .fecha { overflow: hidden; text-overflow: ellipsis; }
+.titulo { font: 700 14px/1.45 var(--font-body); }
+.sub { font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.meta { display: flex; gap: var(--space-2); font: 400 12px/1.4 var(--font-body); }
+.fecha { flex: 1; min-width: 0; color: var(--text-secondary); }
+.precio { font-weight: 700; color: var(--brand-primary); }

@@ -1,0 +1,105 @@
+/* ==========================================================
+   RIFF · Tokens del design system
+   Fuente: Figma 80vaxDw05umaX0Ped7RyCk › "Design system · RIFF" (2008:2)
+   Cambia aquí colores, tipografías, radios y medidas: toda la app los usa.
+   ========================================================== */
+
+:root {
+  /* ---- Color (variables de Figma) ---- */
+  --bg-base: #100310;                          /* bg/base */
+  --surface-default: rgba(99, 56, 102, 0.3);   /* surface/default */
+  --surface-deep: #633866;                     /* surface/deep */
+  --brand-primary: #e199d1;                    /* brand/primary */
+  --brand-secondary: #765ba3;                  /* brand/secondary */
+  --brand-accent: #cb6e74;                     /* brand/accent */
+  --status-danger: #933a50;                    /* status/danger */
+  --text-primary: #ffffff;                     /* text/primary */
+  --text-secondary: rgba(255, 255, 255, 0.65); /* text/secondary */
+  --text-on-primary: #100310;                  /* text/on-primary */
+  --border-subtle: rgba(255, 255, 255, 0.12);  /* border/subtle */
+
+  /* ---- Colores derivados usados en componentes de Figma ---- */
+  --disabled-bg: rgba(255, 255, 255, 0.08);    /* Button Tipo=Deshabilitado */
+  --disabled-text: rgba(255, 255, 255, 0.38);
+  --track: rgba(255, 255, 255, 0.14);          /* pista de slider y barra de pasos */
+  --toast-bg: rgba(42, 16, 41, 0.96);          /* Toast */
+  --toast-icon-muted: rgba(255, 255, 255, 0.16);
+  --glass-top: rgba(16, 3, 16, 0.88);
+  --glass-tabbar: rgba(26, 6, 25, 0.82);       /* Tab bar */
+  --glass-chip: rgba(16, 3, 16, 0.55);         /* botón guardar sobre portada */
+  --glass-control: rgba(42, 16, 41, 0.72);     /* Map controls */
+  --glass-sheet: rgba(31, 10, 30, 0.86);       /* Bottom sheet */
+  --glass-label: rgba(16, 3, 16, 0.85);        /* etiqueta del pin seleccionado */
+  --sheet-handle: rgba(255, 255, 255, 0.4);
+  --surprise-bg: rgba(203, 110, 116, 0.16);    /* Notification card Sorpréndeme */
+  --skeleton-base: #3a1b3a;
+  --skeleton-shine: #5a2d5b;
+  --spotify-green: #1ed760;
+  --apple-start: #fa233b;
+  --apple-end: #fb5c74;
+
+  --gradient-brand: linear-gradient(90deg, #ffffff 0%, var(--brand-primary) 50%, var(--brand-accent) 100%);
+  --gradient-progress: linear-gradient(90deg, var(--brand-secondary), var(--brand-primary));
+  --gradient-skeleton: linear-gradient(90deg, var(--skeleton-base), var(--skeleton-shine) 50%, var(--skeleton-base));
+
+  /* ---- Sombras y desenfoques ---- */
+  --shadow-toast: 0 8px 12px rgba(0, 0, 0, 0.4);
+  --shadow-pin: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-sheet: 0 -8px 16px rgba(0, 0, 0, 0.45);
+  --blur-chip: blur(8px);
+  --blur-bar: blur(12px);
+  --blur-sheet: blur(15px);
+
+  /* ---- Tipografía ---- */
+  --font-display: "Unbounded", system-ui, sans-serif; /* títulos y logotipo */
+  --font-body: "Lunasima", system-ui, sans-serif;     /* cuerpo */
+  --font-figures: "Anton", "Impact", sans-serif;      /* cifras y fechas */
+  --font-system: -apple-system, "SF Pro Text", system-ui, sans-serif; /* botones de terceros */
+
+  /* ---- Radios ---- */
+  --radius-xs: 9px;
+  --radius-sm: 12px;
+  --radius-control: 14px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+
+  /* ---- Espaciado (múltiplos de 4) ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --gutter: 16px;
+
+  /* ---- Medidas de la app (frame Figma 375 × 812) ---- */
+  --app-width: 430px;
+  --top-safe: max(47px, env(safe-area-inset-top));   /* altura del status bar de Figma */
+  --navbar-h: 56px;
+  --tabbar-h: 83px;
+  --bottom-safe: max(34px, env(safe-area-inset-bottom));
+  --tap: 44px;
+
+  /* ---- Movimiento ---- */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --dur-fast: 200ms;
+}
+
+/* ---- Estilos de texto (Figma text styles) ---- */
+.t-display  { font: 700 96px/1 var(--font-display); letter-spacing: -0.03em; }
+.t-h1       { font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.t-h2       { font: 700 24px/1.25 var(--font-display); letter-spacing: -0.015em; }
+.t-h3       { font: 700 20px/1.3 var(--font-display); letter-spacing: -0.01em; }
+.t-h4       { font: 700 17px/1.3 var(--font-display); letter-spacing: -0.005em; }
+.t-body     { font: 400 16px/1.5 var(--font-body); }
+.t-body-b   { font: 700 16px/1.5 var(--font-body); }
+.t-small    { font: 400 14px/1.45 var(--font-body); }
+.t-small-b  { font: 700 14px/1.45 var(--font-body); }
+.t-caption  { font: 400 12px/1.4 var(--font-body); }
+.t-caption-b{ font: 700 12px/1.4 var(--font-body); }
+.t-fig-48   { font: 400 48px/1.1 var(--font-figures); }
+.t-fig-32   { font: 400 32px/1.1 var(--font-figures); }
+.t-fig-20   { font: 400 20px/1.1 var(--font-figures); }
+.c-secondary { color: var(--text-secondary); }
+.c-primary { color: var(--brand-primary); }

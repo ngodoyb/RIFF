@@ -1,0 +1,7 @@
+.card { display: flex; flex-direction: column; gap: var(--space-3); width: 100%; height: 290px; padding-bottom: var(--space-4); background: var(--surface-default); border-radius: var(--radius-md); overflow: hidden; }
+.s { background: var(--gradient-skeleton); background-size: 200% 100%; border-radius: 8px; animation: shimmer 1.4s linear infinite; }
+.img { width: 100%; height: 180px; border-radius: 0; }
+.l { padding: 0 var(--space-4); }
+.row { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3); background: var(--surface-default); border-radius: var(--radius-md); }
+.rowInfo { display: flex; flex-direction: column; gap: var(--space-2); }
+@keyframes shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }

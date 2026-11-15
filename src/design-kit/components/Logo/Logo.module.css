@@ -1,0 +1,5 @@
+.logo {
+  display: inline-block; font-family: var(--font-display); font-weight: 700; line-height: 1; letter-spacing: -0.03em;
+  background: var(--gradient-brand); -webkit-background-clip: text; background-clip: text; color: transparent;
+  white-space: nowrap;
+}

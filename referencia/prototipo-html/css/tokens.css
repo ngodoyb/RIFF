@@ -1,0 +1,68 @@
+/* ==========================================================
+   RIFF · Tokens del design system
+   Fuente: Figma "RIFF · Alta fidelidad" › Design system · RIFF
+   ========================================================== */
+
+:root {
+  /* ---- Color ---- */
+  --bg-base: #100310;            /* bg/base */
+  --surface-default: rgba(99, 56, 102, 0.3); /* surface/default #6338664D */
+  --surface-deep: #633866;       /* surface/deep */
+  --brand-primary: #e199d1;      /* brand/primary */
+  --brand-secondary: #765ba3;    /* brand/secondary */
+  --brand-accent: #cb6e74;       /* brand/accent */
+  --status-danger: #933a50;      /* status/danger */
+  --text-primary: #ffffff;       /* text/primary */
+  --text-secondary: rgba(255, 255, 255, 0.65); /* text/secondary */
+  --text-on-primary: #100310;    /* text/on-primary */
+  --border-subtle: rgba(255, 255, 255, 0.12);  /* border/subtle */
+
+  --gradient-brand: linear-gradient(90deg, #ffffff 0%, var(--brand-primary) 50%, var(--brand-accent) 100%);
+
+  /* Barras con vidrio */
+  --glass-top: rgba(16, 3, 16, 0.88);
+  --glass-tabbar: rgba(26, 6, 25, 0.82);
+  --glass-chip: rgba(16, 3, 16, 0.55);
+
+  /* ---- Tipografía ---- */
+  --font-display: "Unbounded", system-ui, sans-serif; /* títulos y logotipo */
+  --font-body: "Lunasima", system-ui, sans-serif;     /* cuerpo */
+  --font-figures: "Anton", "Impact", sans-serif;      /* cifras y fechas */
+
+  /* ---- Radios ---- */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+
+  /* ---- Espaciado ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --gutter: 16px;
+
+  /* ---- Medidas de la app ---- */
+  --app-width: 430px;
+  --top-safe: max(47px, env(safe-area-inset-top));
+  --tabbar-h: 49px;
+  --bottom-safe: max(34px, env(safe-area-inset-bottom));
+  --tap: 44px; /* área táctil mínima */
+}
+
+/* ---- Estilos de texto (Figma text styles) ---- */
+.t-display { font: 700 96px/1 var(--font-display); letter-spacing: -0.03em; }
+.t-h1      { font: 700 32px/1.2 var(--font-display); letter-spacing: -0.02em; }
+.t-h2      { font: 700 24px/1.25 var(--font-display); letter-spacing: -0.015em; }
+.t-h3      { font: 700 20px/1.3 var(--font-display); letter-spacing: -0.01em; }
+.t-h4      { font: 700 17px/1.3 var(--font-display); letter-spacing: -0.005em; }
+.t-body    { font: 400 16px/1.5 var(--font-body); }
+.t-body-b  { font: 700 16px/1.5 var(--font-body); }
+.t-small   { font: 400 14px/1.45 var(--font-body); }
+.t-small-b { font: 700 14px/1.45 var(--font-body); }
+.t-caption { font: 400 12px/1.4 var(--font-body); }
+.t-caption-b { font: 700 12px/1.4 var(--font-body); }
+.t-fig-48  { font: 400 48px/1.1 var(--font-figures); }
+.t-fig-32  { font: 400 32px/1.1 var(--font-figures); }
+.t-fig-20  { font: 400 20px/1.1 var(--font-figures); }

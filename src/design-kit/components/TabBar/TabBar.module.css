@@ -1,0 +1,13 @@
+.bar {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 20;
+  height: var(--tabbar-h);
+  background: var(--glass-tabbar); backdrop-filter: var(--blur-bar); -webkit-backdrop-filter: var(--blur-bar);
+  border-top: 1px solid var(--border-subtle);
+}
+.tabs { display: grid; grid-template-columns: repeat(4, 1fr); height: 49px; margin-top: -1px; }
+.tab {
+  position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+  height: 49px; font: 400 12px/1.4 var(--font-body); color: var(--text-secondary);
+}
+.on { font-weight: 700; color: var(--brand-primary); }
+.indicador { position: absolute; top: 0; left: 50%; width: 24px; height: 3px; margin-left: -12px; border-radius: 2px; background: var(--brand-primary); }

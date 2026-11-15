@@ -1,0 +1,16 @@
+.page { height: 100%; overflow-y: auto; padding-top: var(--top-safe); }
+.cuerpo { display: flex; flex-direction: column; gap: var(--space-8); padding: var(--space-4) var(--gutter) var(--space-8); }
+.seccion { display: flex; flex-direction: column; gap: var(--space-3); }
+.label { font: 700 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.fila { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.columna { display: flex; flex-direction: column; gap: var(--space-2); }
+.swatch { display: flex; flex-direction: column; gap: 2px; width: calc(50% - 6px); font-size: 12px; }
+.swatch span { height: 60px; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); }
+.swatch small { color: var(--text-secondary); }
+.portada { width: calc(50% - 6px); height: 90px; border-radius: var(--radius-sm); overflow: hidden; }
+.ancho { width: calc(100% + 2 * var(--gutter)); margin: 0 calc(-1 * var(--gutter)); }
+.tabbar { position: relative; width: calc(100% + 2 * var(--gutter)); margin: 0 calc(-1 * var(--gutter)); height: 83px; }
+.mapa { position: relative; width: 100%; height: 340px; border-radius: var(--radius-md); background: var(--surface-default); overflow: hidden; }
+.controles { position: absolute; right: 12px; bottom: 12px; }
+.sheet { position: relative; width: 100%; background: var(--surface-default); border-radius: var(--radius-md); overflow: hidden; }
+.metricas { display: flex; gap: var(--space-3); width: 100%; }

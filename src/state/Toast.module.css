@@ -1,0 +1,3 @@
+.zona { position: absolute; left: var(--gutter); right: var(--gutter); bottom: calc(var(--tabbar-h) + var(--space-3)); z-index: 60; pointer-events: none; }
+.toast { pointer-events: auto; animation: entra var(--dur-fast) var(--ease-standard); }
+@keyframes entra { from { opacity: 0; transform: translateY(8px); } }

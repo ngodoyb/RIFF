@@ -1,0 +1,18 @@
+.card {
+  display: flex; align-items: flex-start; gap: var(--space-3); width: 100%; padding: var(--space-4); text-align: left;
+  background: var(--surface-default); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+}
+.sorpresa { background: var(--surprise-bg); border: 1.5px solid var(--brand-accent); }
+.icono { display: grid; place-items: center; width: 40px; height: 40px; border-radius: var(--radius-sm); flex-shrink: 0; color: var(--text-on-primary); }
+.secundario { background: var(--brand-secondary); color: var(--text-primary); }
+.acento { background: var(--brand-accent); }
+.primario { background: var(--brand-primary); }
+.contenido { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: var(--space-1); }
+.encabezado { display: flex; gap: var(--space-2); font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.tipo { flex: 1; font-weight: 700; }
+.tSec { color: var(--text-secondary); }
+.tAcento { color: var(--brand-accent); }
+.tPrim { color: var(--brand-primary); }
+.hace { white-space: nowrap; }
+.titulo { font: 700 14px/1.45 var(--font-body); }
+.texto { font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }

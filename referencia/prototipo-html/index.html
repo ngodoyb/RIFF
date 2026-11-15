@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#100310">
+  <title>riff</title>
+  <meta name="description" content="Eventos de música en vivo en Bogotá, según tus gustos y tu presupuesto.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lunasima:wght@400;700&family=Unbounded:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <!-- ======================================================
+       Íconos (sprite). Se usan con <svg><use href="#i-..."/></svg>
+       ====================================================== -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true">
+    <defs>
+      <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol>
+      <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></symbol>
+      <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+      <symbol id="i-back" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></symbol>
+      <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
+      <symbol id="i-bm" viewBox="0 0 24 24"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z"/></symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V20h-5v-5.5H9V20H4z"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="M3.5 6.5 9 4l6 2.5L20.5 4v13.5L15 20l-6-2.5-5.5 2.5zM9 4v13.5M15 6.5V20"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></symbol>
+    </defs>
+  </svg>
+
+  <div class="app" id="app">
+
+    <!-- ====================================================
+         SPLASH  ·  Figma 2012:92
+         ==================================================== -->
+    <section class="screen screen--splash" id="splash" data-screen="splash" aria-label="Bienvenida">
+      <div class="glow glow--splash-purple" aria-hidden="true"></div>
+      <div class="glow glow--splash-pink" aria-hidden="true"></div>
+      <div class="glow glow--splash-coral" aria-hidden="true"></div>
+
+      <div class="splash__brand">
+        <h1 class="logo logo--xl">riff</h1>
+        <p class="t-body text-secondary">todo en un mismo lugar.</p>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         00 · SELECCIONA TU PERFIL  ·  Figma 2012:118
+         ==================================================== -->
+    <section class="screen screen--perfil" id="perfil" data-screen="perfil" aria-labelledby="perfil-title" hidden>
+      <div class="glow glow--perfil-top" aria-hidden="true"></div>
+      <div class="glow glow--perfil-mid" aria-hidden="true"></div>
+      <div class="glow glow--perfil-bottom" aria-hidden="true"></div>
+
+      <div class="screen__body">
+        <p class="logo logo--sm" aria-hidden="true">riff</p>
+
+        <h1 class="t-h1" id="perfil-title">¿cómo quieres usar riff?</h1>
+        <p class="t-body text-secondary">Elige tu perfil para mostrarte lo que necesitas. Cero fomo, siempre al tanto.</p>
+
+        <nav class="option-list" aria-label="Tipo de perfil">
+          <a class="option is-active" href="#feed" data-profile="consumidor">
+            <span class="option__icon option__icon--primary"><svg class="icon icon--28"><use href="#i-compass"/></svg></span>
+            <span class="option__text">
+              <span class="t-body-b">Quiero descubrir eventos</span>
+              <span class="t-small text-secondary">Recomendaciones de música en vivo según tus gustos y tu presupuesto.</span>
+            </span>
+            <svg class="icon icon--20 option__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </a>
+
+          <a class="option" href="#organizador" data-profile="organizador">
+            <span class="option__icon option__icon--secondary"><svg class="icon icon--28"><use href="#i-mic"/></svg></span>
+            <span class="option__text">
+              <span class="t-body-b">Soy organizador, venue o artista</span>
+              <span class="t-small text-secondary">Publica tus eventos, verifica tu cuenta y mide su alcance.</span>
+            </span>
+            <svg class="icon icon--20 option__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </a>
+        </nav>
+      </div>
+
+      <p class="legal t-caption text-secondary">Al continuar aceptas los <a href="#terminos">Términos</a> y la <a href="#datos">Política de tratamiento de datos</a>.</p>
+    </section>
+
+    <!-- ====================================================
+         04 · FEED PRINCIPAL  ·  Figma 2014:299
+         ==================================================== -->
+    <section class="screen screen--feed has-tabbar" id="feed" data-screen="feed" aria-labelledby="feed-title" hidden>
+      <div class="glow glow--feed" aria-hidden="true"></div>
+      <div class="topbar" aria-hidden="true"></div>
+
+      <header class="feed__header">
+        <div>
+          <p class="t-small text-secondary">hola, <span data-user-name>laura</span></p>
+          <h1 class="t-h1" id="feed-title">tu feed</h1>
+        </div>
+        <a class="icon-btn icon-btn--round" href="#notificaciones" aria-label="Notificaciones, tienes nuevas">
+          <svg class="icon icon--24"><use href="#i-bell"/></svg>
+          <span class="dot" aria-hidden="true"></span>
+        </a>
+      </header>
+
+      <div class="search-row">
+        <a class="search-bar" href="#buscar" role="search">
+          <svg class="icon icon--20 text-primary-brand" aria-hidden="true"><use href="#i-search"/></svg>
+          <span class="t-small text-secondary">Buscar eventos, artistas, venues</span>
+        </a>
+        <a class="icon-btn icon-btn--secondary" href="#filtros" aria-label="Filtros">
+          <svg class="icon icon--22"><use href="#i-sliders"/></svg>
+        </a>
+      </div>
+
+      <!-- Carrusel: recomendado para ti -->
+      <section class="feed-section" aria-labelledby="sec-reco">
+        <h2 class="t-h3" id="sec-reco">recomendado para ti</h2>
+        <ul class="carousel" role="list">
+          <li>
+            <article class="event-card">
+              <a class="event-card__link" href="#evento/omar-courtz">
+                <div class="cover" style="--cover-hue: 230"></div>
+                <div class="event-card__info">
+                  <h3 class="t-body-b">Omar Courtz: Por si mañana no estoy</h3>
+                  <p class="meta t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-cal"/></svg><time datetime="2026-11-12T20:00">jue 12 nov · 8:00 p. m.</time></p>
+                  <p class="meta meta--venue t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-pin"/></svg><span class="meta__venue">Movistar Arena</span><span class="price t-small-b">$189.000 – $577.000</span></p>
+                </div>
+              </a>
+              <button class="save-btn" type="button" aria-pressed="false" aria-label="Guardar Omar Courtz"><svg class="icon icon--20"><use href="#i-bm"/></svg></button>
+            </article>
+          </li>
+          <li>
+            <article class="event-card">
+              <a class="event-card__link" href="#evento/penyair">
+                <div class="cover" style="--cover-hue: 20"></div>
+                <div class="event-card__info">
+                  <h3 class="t-body-b">Penyair: Desde Abajo Tour</h3>
+                  <p class="meta t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-cal"/></svg><time datetime="2026-11-29T18:00">dom 29 nov · 6:00 p. m.</time></p>
+                  <p class="meta meta--venue t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-pin"/></svg><span class="meta__venue">Teatro Gaitán</span><span class="price t-small-b">$98.200 – $271.400</span></p>
+                </div>
+              </a>
+              <button class="save-btn" type="button" aria-pressed="false" aria-label="Guardar Penyair"><svg class="icon icon--20"><use href="#i-bm"/></svg></button>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Carrusel: cerca de ti -->
+      <section class="feed-section" aria-labelledby="sec-cerca">
+        <h2 class="t-h3" id="sec-cerca">cerca de ti</h2>
+        <ul class="carousel" role="list">
+          <li>
+            <article class="event-card">
+              <a class="event-card__link" href="#evento/slipknot">
+                <div class="cover" style="--cover-hue: 0"></div>
+                <div class="event-card__info">
+                  <h3 class="t-body-b">Slipknot + Marilyn Manson</h3>
+                  <p class="meta t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-cal"/></svg><time datetime="2027-09-16T18:00">jue 16 sep 2027 · 6:00 p. m.</time></p>
+                  <p class="meta meta--venue t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-pin"/></svg><span class="meta__venue">Vive Claro</span><span class="price t-small-b">Precios en Ticketmaster</span></p>
+                </div>
+              </a>
+              <button class="save-btn" type="button" aria-pressed="false" aria-label="Guardar Slipknot + Marilyn Manson"><svg class="icon icon--20"><use href="#i-bm"/></svg></button>
+            </article>
+          </li>
+          <li>
+            <article class="event-card">
+              <a class="event-card__link" href="#evento/baum">
+                <div class="cover" style="--cover-hue: 280"></div>
+                <div class="event-card__info">
+                  <h3 class="t-body-b">BAUM Festival 2027</h3>
+                  <p class="meta t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-cal"/></svg><time datetime="2027-02-12">vie 12 – sáb 13 feb 2027</time></p>
+                  <p class="meta meta--venue t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-pin"/></svg><span class="meta__venue">Corferias</span><span class="price t-small-b">Precios en Ticketmaster</span></p>
+                </div>
+              </a>
+              <button class="save-btn" type="button" aria-pressed="false" aria-label="Guardar BAUM Festival 2027"><svg class="icon icon--20"><use href="#i-bm"/></svg></button>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Carrusel: esta semana -->
+      <section class="feed-section" aria-labelledby="sec-semana">
+        <h2 class="t-h3" id="sec-semana">esta semana</h2>
+        <ul class="carousel" role="list">
+          <li>
+            <article class="event-card">
+              <a class="event-card__link" href="#evento/berliner">
+                <div class="cover" style="--cover-hue: 45"></div>
+                <div class="event-card__info">
+                  <h3 class="t-body-b">Berliner Philharmoniker</h3>
+                  <p class="meta t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-cal"/></svg><time datetime="2026-10-14T20:00">mié 14 oct · 8:00 p. m.</time></p>
+                  <p class="meta meta--venue t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-pin"/></svg><span class="meta__venue">Teatro Mayor JMSD</span><span class="price t-small-b">$44.300 – $774.450</span></p>
+                </div>
+              </a>
+              <button class="save-btn" type="button" aria-pressed="false" aria-label="Guardar Berliner Philharmoniker"><svg class="icon icon--20"><use href="#i-bm"/></svg></button>
+            </article>
+          </li>
+          <li>
+            <article class="event-card">
+              <a class="event-card__link" href="#evento/el-kalvo">
+                <div class="cover" style="--cover-hue: 160"></div>
+                <div class="event-card__info">
+                  <h3 class="t-body-b">El Kalvo: 20 años de rap rolo</h3>
+                  <p class="meta t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-cal"/></svg><time datetime="2026-10-17T20:00">sáb 17 oct · 8:00 p. m.</time></p>
+                  <p class="meta meta--venue t-small text-secondary"><svg class="icon icon--16" aria-hidden="true"><use href="#i-pin"/></svg><span class="meta__venue">Teatro Gaitán</span><span class="price t-small-b">$88.800 – $99.900</span></p>
+                </div>
+              </a>
+              <button class="save-btn" type="button" aria-pressed="false" aria-label="Guardar El Kalvo"><svg class="icon icon--20"><use href="#i-bm"/></svg></button>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ====================================================
+         TAB BAR  ·  Figma 2009:259  (visible en pantallas .has-tabbar)
+         ==================================================== -->
+    <nav class="tabbar" id="tabbar" aria-label="Principal" hidden>
+      <a class="tab" href="#feed" data-tab="feed"><svg class="icon icon--24" aria-hidden="true"><use href="#i-home"/></svg><span>Feed</span></a>
+      <a class="tab" href="#mapa" data-tab="mapa"><svg class="icon icon--24" aria-hidden="true"><use href="#i-map"/></svg><span>Mapa</span></a>
+      <a class="tab" href="#calendario" data-tab="calendario"><svg class="icon icon--24" aria-hidden="true"><use href="#i-cal"/></svg><span>Calendario</span></a>
+      <a class="tab" href="#perfil-usuario" data-tab="perfil-usuario"><svg class="icon icon--24" aria-hidden="true"><use href="#i-user"/></svg><span>Perfil</span></a>
+    </nav>
+
+    <!-- Toast para pantallas que aún no existen -->
+    <div class="toast t-small" id="toast" role="status" aria-live="polite" hidden></div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+.page { height: 100%; overflow-y: auto; padding: var(--space-6) var(--gutter); display: flex; flex-direction: column; gap: var(--space-4); }
+.page ul { display: flex; flex-direction: column; gap: var(--space-2); margin-top: var(--space-2); }
+.page a { color: var(--brand-primary); font: 700 14px/1.45 var(--font-body); }
+.page code { font-size: 11px; color: var(--text-secondary); }
+.estado { padding-left: var(--space-4); font-size: 13px; }

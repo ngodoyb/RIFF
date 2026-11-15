@@ -1,0 +1,16 @@
+.card {
+  position: relative; display: flex; flex-direction: column; overflow: hidden;
+  width: 100%; background: var(--surface-default);
+  border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+}
+.portada { position: relative; height: 180px; overflow: hidden; }
+.save { position: absolute; top: 12px; right: 10px; }
+.info { display: flex; flex-direction: column; gap: var(--space-2); padding: var(--space-4); }
+.info::after { content: ''; position: absolute; inset: 0; } /* toda la card abre el detalle */
+.save { z-index: 1; }
+.titulo { font: 700 16px/1.5 var(--font-body); }
+.fila { display: flex; align-items: center; gap: 6px; font: 400 14px/1.45 var(--font-body); color: var(--text-secondary); }
+.venue { gap: var(--space-2); }
+.ic { color: var(--brand-primary); }
+.lugar { flex: 1; min-width: 0; }
+.precio { font-weight: 700; color: var(--brand-primary); white-space: nowrap; }

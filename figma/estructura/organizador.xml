@@ -1,0 +1,937 @@
+<section id="2023:35978" name="Flujo organizador, venue o artista · alta fidelidad" x="0" y="6773" width="4630" height="2458">
+  <text id="2023:35979" name="flujo organizador, venue o artista" x="80" y="40" width="486" height="30" />
+  <frame id="2023:35980" name="01 · Crear cuenta (organizador)" x="80" y="120" width="375" height="812">
+    <ellipse id="2023:35981" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2023:35982" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2023:35983" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2023:35984" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2023:35995" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2023:36001" name="contenido" x="16" y="112" width="343" height="572">
+      <text id="2023:36002" name="crea tu cuenta de organizador" x="0" y="0" width="343" height="76" />
+      <text id="2023:36003" name="Publica tus eventos y llega a quien ya b" x="0" y="92" width="343" height="48" />
+      <instance id="2023:36004" name="input/Nombre del organizador, venue o artista" x="0" y="156" width="343" height="77" />
+      <instance id="2023:36012" name="input/Correo o número de celular" x="0" y="249" width="343" height="102" />
+      <frame id="2023:36019" name="tipo de cuenta" x="0" y="367" width="343" height="77">
+        <text id="2023:36020" name="Tipo de cuenta" x="0" y="0" width="92" height="17" />
+        <instance id="2023:36021" name="selector tipo de cuenta" x="0" y="25" width="343" height="52" />
+      </frame>
+      <instance id="2023:36037" name="btn/crear cuenta organizador" x="0" y="460" width="343" height="52" />
+      <frame id="2023:36039" name="link/inicia sesión" x="0" y="528" width="343" height="44">
+        <text id="2023:36040" name="¿Ya tienes cuenta?" x="62.5" y="12" width="124" height="20" />
+        <text id="2023:36041" name="Inicia sesión" x="190.5" y="12" width="90" height="20" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="2023:36042" name="Nota · heurísticas" x="80" y="956" width="375" height="199">
+    <text id="2023:36043" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2023:36044" name="• Consistencia y estándares: mismos inpu" x="17" y="47" width="341" height="51" />
+    <text id="2023:36045" name="• Prevención de errores: validación en t" x="17" y="106" width="341" height="34" />
+    <text id="2023:36046" name="• Reconocer antes que recordar: tres tip" x="17" y="148" width="341" height="34" />
+  </frame>
+  <frame id="2023:36047" name="02 · Verificación de documentos" x="535" y="120" width="375" height="812">
+    <ellipse id="2023:36048" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2023:36049" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2023:36050" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2023:36051" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2023:36062" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2023:36068" name="contenido" x="16" y="112" width="343" height="633">
+      <text id="2023:36069" name="verifica tu negocio" x="0" y="0" width="343" height="76" />
+      <text id="2023:36070" name="Sube el soporte que acredite tu negocio " x="0" y="88" width="343" height="72" />
+      <frame id="2023:36071" name="carga/Permiso de funcionamiento" x="0" y="172" width="343" height="88">
+        <frame id="2023:36072" name="Frame" x="17" y="24" width="40" height="40">
+          <frame id="2023:36073" name="icon/check" x="10" y="10" width="20" height="20" />
+        </frame>
+        <frame id="2023:36075" name="Frame" x="69" y="15" width="227" height="58">
+          <text id="2023:36076" name="Permiso de funcionamiento" x="0" y="0" width="227" height="20" />
+          <text id="2023:36077" name="licencia_funcionamiento_bambule.pdf · 1,2 MB · Subido" x="0" y="24" width="227" height="34" />
+        </frame>
+        <frame id="2023:36078" name="reemplazar" x="308" y="22" width="18" height="44">
+          <frame id="2023:36079" name="icon/refresh" x="0" y="13" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="2023:36081" name="carga/Cámara de comercio" x="0" y="272" width="343" height="96">
+        <frame id="2023:36082" name="Frame" x="17" y="28" width="40" height="40">
+          <frame id="2023:36083" name="icon/upload" x="10" y="10" width="20" height="20" />
+        </frame>
+        <frame id="2023:36085" name="Frame" x="69" y="15" width="257" height="66">
+          <text id="2023:36086" name="Cámara de comercio" x="0" y="0" width="257" height="20" />
+          <text id="2023:36087" name="camara_comercio_bambule.pdf · subiendo 60 %" x="0" y="24" width="257" height="34" />
+          <frame id="2023:36088" name="Frame" x="0" y="62" width="257" height="4">
+            <rounded-rectangle id="2023:36089" name="Rectangle" x="0" y="0" width="120" height="4" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2023:36090" name="carga/Documento de identidad (artista)" x="0" y="380" width="343" height="71">
+        <frame id="2023:36091" name="Frame" x="17" y="15.5" width="40" height="40">
+          <frame id="2023:36092" name="icon/clip" x="10" y="10" width="20" height="20" />
+        </frame>
+        <frame id="2023:36094" name="Frame" x="69" y="15" width="257" height="41">
+          <text id="2023:36095" name="RUT y Cámara de Comercio (venue)" x="0" y="0" width="257" height="20" />
+          <text id="2023:36096" name="Toca para subir PDF o foto (máx. 10 MB)" x="0" y="24" width="257" height="17" />
+        </frame>
+      </frame>
+      <frame id="2023:36097" name="aviso 48 h" x="0" y="463" width="335" height="34">
+        <frame id="2023:36098" name="icon/clock" x="0" y="9" width="16" height="16" />
+        <text id="2023:36101" name="La revisión puede tardar hasta 48 horas." x="24" y="0" width="311" height="34" />
+      </frame>
+      <instance id="2023:36102" name="btn/enviar a revisión" x="0" y="509" width="343" height="52" />
+      <frame id="2023:36104" name="aviso rechazo" x="0" y="573" width="343" height="60">
+        <frame id="2023:36105" name="icon/alert" x="13" y="13" width="16" height="16" />
+        <text id="2023:36108" name="Si tu verificación es rechazada, verás a" x="39" y="13" width="291" height="34" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="2023:36109" name="Nota · heurísticas" x="535" y="956" width="375" height="199">
+    <text id="2023:36110" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2023:36111" name="• Visibilidad del estado: cada documento" x="17" y="47" width="341" height="34" />
+    <text id="2023:36112" name="• Relación con el mundo real: documentos" x="17" y="89" width="341" height="51" />
+    <text id="2023:36113" name="• Ayuda: aviso de revisión de hasta 48 h" x="17" y="148" width="341" height="34" />
+  </frame>
+  <frame id="2023:36114" name="02 · Verificación — rechazada" x="535" y="1360" width="375" height="812">
+    <ellipse id="2023:36115" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2023:36116" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2023:36117" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2023:36118" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2023:36129" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2023:36135" name="contenido" x="16" y="112" width="343" height="601">
+      <text id="2023:36136" name="verifica tu negocio" x="0" y="0" width="343" height="76" />
+      <frame id="2023:36137" name="motivo de rechazo" x="0" y="88" width="343" height="118">
+        <frame id="2023:36138" name="Frame" x="16" y="16" width="189" height="20">
+          <frame id="2023:36139" name="icon/alert" x="0" y="1" width="18" height="18" />
+          <text id="2023:36142" name="Verificación rechazada" x="26" y="0" width="163" height="20" />
+        </frame>
+        <text id="2023:36143" name="Motivo: tu cámara de comercio fue expedi" x="16" y="42" width="311" height="60" />
+      </frame>
+      <frame id="2023:36144" name="carga/Permiso de funcionamiento" x="0" y="218" width="343" height="88">
+        <frame id="2023:36145" name="Frame" x="17" y="24" width="40" height="40">
+          <frame id="2023:36146" name="icon/check" x="10" y="10" width="20" height="20" />
+        </frame>
+        <frame id="2023:36148" name="Frame" x="69" y="15" width="227" height="58">
+          <text id="2023:36149" name="Permiso de funcionamiento" x="0" y="0" width="227" height="20" />
+          <text id="2023:36150" name="licencia_funcionamiento_bambule.pdf · 1,2 MB · Subido" x="0" y="24" width="227" height="34" />
+        </frame>
+        <frame id="2023:36151" name="reemplazar" x="308" y="22" width="18" height="44">
+          <frame id="2023:36152" name="icon/refresh" x="0" y="13" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="2023:36154" name="carga/Cámara de comercio" x="0" y="318" width="343" height="90">
+        <frame id="2023:36155" name="Frame" x="18" y="25" width="40" height="40">
+          <frame id="2023:36156" name="icon/alert" x="10" y="10" width="20" height="20" />
+        </frame>
+        <frame id="2023:36159" name="Frame" x="70" y="16" width="225" height="58">
+          <text id="2023:36160" name="Cámara de comercio" x="0" y="0" width="225" height="20" />
+          <text id="2023:36161" name="Expedida el 12 ago 2026 · reemplázala" x="0" y="24" width="225" height="34" />
+        </frame>
+        <frame id="2023:36162" name="reemplazar" x="307" y="23" width="18" height="44">
+          <frame id="2023:36163" name="icon/refresh" x="0" y="13" width="18" height="18" />
+        </frame>
+      </frame>
+      <frame id="2023:36165" name="carga/Documento de identidad (artista)" x="0" y="420" width="343" height="71">
+        <frame id="2023:36166" name="Frame" x="17" y="15.5" width="40" height="40">
+          <frame id="2023:36167" name="icon/clip" x="10" y="10" width="20" height="20" />
+        </frame>
+        <frame id="2023:36169" name="Frame" x="69" y="15" width="257" height="41">
+          <text id="2023:36170" name="RUT y Cámara de Comercio (venue)" x="0" y="0" width="257" height="20" />
+          <text id="2023:36171" name="Toca para subir PDF o foto (máx. 10 MB)" x="0" y="24" width="257" height="17" />
+        </frame>
+      </frame>
+      <frame id="2023:36172" name="aviso 48 h" x="0" y="503" width="335" height="34">
+        <frame id="2023:36173" name="icon/clock" x="0" y="9" width="16" height="16" />
+        <text id="2023:36176" name="La revisión puede tardar hasta 48 horas." x="24" y="0" width="311" height="34" />
+      </frame>
+      <instance id="2023:36177" name="btn/reenviar" x="0" y="549" width="343" height="52" />
+    </frame>
+  </frame>
+  <text id="2023:36179" name="Estado de 02 · rechazo con motivo" x="535" y="1336" width="218" height="17" />
+  <frame id="2023:36180" name="Nota · heurísticas" x="535" y="2196" width="375" height="157">
+    <text id="2023:36181" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2023:36182" name="• Recuperación de errores: pantalla de r" x="17" y="47" width="341" height="51" />
+    <text id="2023:36183" name="• Visibilidad del estado: el documento c" x="17" y="106" width="341" height="34" />
+  </frame>
+  <frame id="2023:36184" name="03 · Perfil público del organizador" x="990" y="120" width="375" height="812">
+    <instance id="2023:36185" name="banner" x="0" y="0" width="375" height="160" />
+    <rounded-rectangle id="2182:3648" name="foto Bambulé" x="0" y="0" width="375" height="160" />
+    <instance id="2023:36193" name="Status bar" x="0" y="0" width="375" height="47" />
+    <frame id="2023:36204" name="btn/cambiar banner" x="315" y="100" width="44" height="44">
+      <frame id="2023:36205" name="icon/camera" x="13" y="13" width="18" height="18" />
+    </frame>
+    <frame id="2023:36208" name="volver" x="16" y="53" width="44" height="44">
+      <frame id="2023:36209" name="Frame" x="10" y="11" width="22" height="22" />
+    </frame>
+    <frame id="2023:36211" name="avatar" x="16" y="120" width="80" height="80" />
+    <frame id="2023:36213" name="insignia verificado" x="108" y="170" width="100" height="25">
+      <frame id="2023:36214" name="icon/badge" x="10" y="5.5" width="14" height="14" />
+      <text id="2023:36217" name="Verificado" x="28" y="4" width="62" height="17" />
+    </frame>
+    <frame id="2023:36218" name="contenido" x="16" y="212" width="343" height="593">
+      <frame id="2023:36219" name="Frame" x="0" y="0" width="241" height="52">
+        <text id="2023:36220" name="bambulé" x="0" y="0" width="130" height="30" />
+        <text id="2023:36221" name="Bar y discoteca · Zona Rosa, Bogotá" x="0" y="32" width="241" height="20" />
+      </frame>
+      <instance id="2023:36222" name="input/Descripción del venue o artista" x="0" y="68" width="343" height="151" />
+      <instance id="2023:36230" name="input/Ubicación" x="0" y="235" width="343" height="77" />
+      <frame id="2023:36238" name="galería" x="0" y="328" width="340" height="104">
+        <text id="2023:36239" name="Fotos (galería)" x="0" y="0" width="90" height="17" />
+        <frame id="2023:36240" name="Frame" x="0" y="25" width="340" height="79">
+          <frame id="2023:36241" name="Frame" x="0" y="0" width="79" height="79" />
+          <frame id="2023:36250" name="Frame" x="87" y="0" width="79" height="79">
+            <instance id="2023:36251" name="Portada (placeholder)" x="-35" y="0" width="150" height="79" />
+          </frame>
+          <frame id="2023:36259" name="Frame" x="174" y="0" width="79" height="79">
+            <instance id="2023:36260" name="Portada (placeholder)" x="-35" y="0" width="150" height="79" />
+          </frame>
+          <frame id="2023:36268" name="btn/agregar foto" x="261" y="0" width="79" height="79">
+            <frame id="2023:36269" name="icon/plus" x="27.5" y="27.5" width="24" height="24" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="2023:36271" name="input/Redes sociales" x="0" y="448" width="343" height="77" />
+      <instance id="2023:36279" name="btn/guardar y continuar" x="0" y="541" width="343" height="52" />
+    </frame>
+    <rounded-rectangle id="2163:3741" name="espacio bajo tab bar" x="0" y="805" width="375" height="24" />
+  </frame>
+  <frame id="2023:36281" name="Nota · heurísticas" x="990" y="956" width="375" height="182">
+    <text id="2023:36282" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2023:36283" name="• Visibilidad del estado: insignia “Veri" x="17" y="47" width="341" height="34" />
+    <text id="2023:36284" name="• Reconocer antes que recordar: campos p" x="17" y="89" width="341" height="34" />
+    <text id="2023:36285" name="• Estético y minimalista: banner, avatar" x="17" y="131" width="341" height="34" />
+  </frame>
+  <frame id="2023:36286" name="04 · Iniciar sesión (organizador)" x="1445" y="120" width="375" height="812">
+    <ellipse id="2023:36287" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2023:36288" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2023:36289" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2023:36290" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2023:36301" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2023:36307" name="contenido" x="16" y="112" width="343" height="348">
+      <text id="2023:36308" name="hola de nuevo" x="0" y="0" width="343" height="38" />
+      <text id="2023:36309" name="Entra a tu panel para publicar y medir t" x="0" y="54" width="343" height="48" />
+      <instance id="2023:36310" name="input/Correo o número de celular" x="0" y="118" width="343" height="102" />
+      <instance id="2023:36318" name="btn/iniciar sesión" x="0" y="236" width="343" height="52" />
+      <frame id="2023:36320" name="link/crear cuenta" x="0" y="304" width="343" height="44">
+        <text id="2023:36321" name="¿No tienes cuenta?" x="65.5" y="12" width="126" height="20" />
+        <text id="2023:36322" name="Créala aquí" x="195.5" y="12" width="82" height="20" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="2023:36323" name="Nota · heurísticas" x="1445" y="956" width="375" height="140">
+    <text id="2023:36324" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2023:36325" name="• Consistencia: mismo patrón de inicio d" x="17" y="47" width="341" height="34" />
+    <text id="2023:36326" name="• Prevención de errores: acceso con códi" x="17" y="89" width="341" height="34" />
+  </frame>
+  <frame id="2024:36133" name="01 · Crear cuenta (organizador) — válido" x="80" y="1360" width="375" height="812">
+    <ellipse id="2024:36134" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2024:36135" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2024:36136" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2024:36137" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2024:36138" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2024:36139" name="contenido" x="16" y="112" width="343" height="572">
+      <text id="2024:36140" name="crea tu cuenta de organizador" x="0" y="0" width="343" height="76" />
+      <text id="2024:36141" name="Publica tus eventos y llega a quien ya b" x="0" y="92" width="343" height="48" />
+      <instance id="2024:36142" name="input/Nombre del organizador, venue o artista" x="0" y="156" width="343" height="77" />
+      <instance id="2024:36143" name="input/Correo o número de celular" x="0" y="249" width="343" height="102" />
+      <frame id="2024:36144" name="tipo de cuenta" x="0" y="367" width="343" height="77">
+        <text id="2024:36145" name="Tipo de cuenta" x="0" y="0" width="92" height="17" />
+        <instance id="2024:36146" name="selector tipo de cuenta" x="0" y="25" width="343" height="52" />
+      </frame>
+      <instance id="2024:36147" name="btn/crear cuenta organizador" x="0" y="460" width="343" height="52" />
+      <frame id="2024:36148" name="link/inicia sesión" x="0" y="528" width="343" height="44">
+        <text id="2024:36149" name="¿Ya tienes cuenta?" x="62.5" y="12" width="124" height="20" />
+        <text id="2024:36150" name="Inicia sesión" x="190.5" y="12" width="90" height="20" />
+      </frame>
+    </frame>
+  </frame>
+  <text id="2024:36202" name="Estado de 01 · campos válidos" x="80" y="1336" width="192" height="17" />
+  <frame id="2024:36203" name="Nota · heurísticas" x="80" y="2196" width="375" height="98">
+    <text id="2024:36204" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2024:36205" name="• Visibilidad del estado: checks en cada" x="17" y="47" width="341" height="34" />
+  </frame>
+  <frame id="2024:36206" name="05 · Panel de organizador" x="1900" y="120" width="375" height="812">
+    <frame id="2092:40111" name="fondo (brillos)" x="0" y="0" width="375" height="812">
+      <ellipse id="2024:36207" name="brillo" x="-140" y="-160" width="380" height="380" />
+      <ellipse id="2024:36208" name="brillo" x="200" y="520" width="340" height="340" />
+      <ellipse id="2024:36209" name="brillo" x="120" y="260" width="220" height="220" />
+    </frame>
+    <text id="2024:36221" name="hola, bambulé" x="16" y="60" width="97" height="20" />
+    <text id="2024:36222" name="tu panel" x="16" y="80" width="160" height="38" />
+    <frame id="2024:36223" name="btn/notificaciones" x="315" y="72" width="44" height="44">
+      <frame id="2024:36224" name="icon/bell" x="11" y="11" width="22" height="22" />
+      <ellipse id="2024:36227" name="Ellipse" x="26" y="8" width="10" height="10" />
+    </frame>
+    <frame id="2024:36228" name="contenido" x="16" y="136" width="343" height="882">
+      <instance id="2024:36229" name="btn/publicar nuevo evento" x="0" y="0" width="343" height="52" />
+      <frame id="2024:36231" name="Frame" x="0" y="68" width="343" height="22">
+        <text id="2024:36232" name="resumen" x="0" y="0" width="259" height="22" />
+        <text id="2024:36233" name="Últimos 7 días" x="259" y="2.5" width="84" height="17" />
+      </frame>
+      <frame id="2024:36234" name="métricas" x="0" y="106" width="343" height="90">
+        <instance id="2024:36235" name="métrica/Vistas" x="0" y="0" width="107" height="90" />
+        <instance id="2024:36241" name="métrica/Guardados" x="118" y="0" width="107" height="90" />
+        <instance id="2024:36247" name="métrica/Clics a venta" x="236" y="0" width="107" height="90" />
+      </frame>
+      <text id="2024:36253" name="mis eventos" x="0" y="212" width="150" height="26" />
+      <frame id="2024:36254" name="evento/Kaleido: noche de techno" x="0" y="254" width="343" height="180">
+        <frame id="2024:36255" name="Frame" x="13" y="13" width="317" height="69">
+          <frame id="2024:36256" name="Frame" x="0" y="2.5" width="64" height="64">
+            <instance id="2024:36257" name="Portada (placeholder)" x="-29" y="0" width="122" height="64" />
+          </frame>
+          <frame id="2024:36265" name="Frame" x="76" y="0" width="241" height="69">
+            <instance id="2024:36266" name="Badge" x="0" y="0" width="97" height="24" />
+            <text id="2024:36270" name="Bambulé · Viernes de Reggaetón" x="0" y="28" width="241" height="20" />
+            <text id="2024:36271" name="vie 16 oct · 8:00 p. m." x="0" y="52" width="241" height="17" />
+          </frame>
+        </frame>
+        <frame id="2024:36272" name="detalle estado" x="13" y="94" width="152" height="17">
+          <text id="2024:36273" name="128 vistas · 34 guardados" x="0" y="0" width="152" height="17" />
+        </frame>
+        <frame id="2024:36274" name="acciones" x="13" y="123" width="317" height="44">
+          <frame id="2024:36275" name="btn/métricas · Kaleido: noche de techno" x="0" y="0" width="73.25" height="44">
+            <frame id="2024:36276" name="icon/chart" x="1.125" y="15" width="14" height="14" />
+            <text id="2024:36278" name="Métricas" x="19.125" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36279" name="btn/editar · Kaleido: noche de techno" x="81.25" y="0" width="73.25" height="44">
+            <frame id="2024:36280" name="icon/pencil" x="9.125" y="15" width="14" height="14" />
+            <text id="2024:36282" name="Editar" x="27.125" y="13.5" width="37" height="17" />
+          </frame>
+          <frame id="2024:36283" name="btn/duplicar · Kaleido: noche de techno" x="162.5" y="0" width="73.25" height="44">
+            <frame id="2024:36284" name="icon/copy" x="1.125" y="15" width="14" height="14" />
+            <text id="2024:36287" name="Duplicar" x="19.125" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36288" name="btn/cancelar · Kaleido: noche de techno" x="243.75" y="0" width="73.25" height="44">
+            <frame id="2024:36289" name="icon/ban" x="0.625" y="15" width="14" height="14" />
+            <text id="2024:36292" name="Cancelar" x="18.625" y="13.5" width="54" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2024:36293" name="evento/Pulso Andino: DJ set" x="0" y="450" width="343" height="180">
+        <frame id="2024:36294" name="Frame" x="13" y="13" width="317" height="69">
+          <frame id="2024:36295" name="Frame" x="0" y="2.5" width="64" height="64">
+            <instance id="2024:36296" name="Portada (placeholder)" x="-29" y="0" width="122" height="64" />
+          </frame>
+          <frame id="2024:36304" name="Frame" x="76" y="0" width="241" height="69">
+            <instance id="2024:36305" name="Badge" x="0" y="0" width="105" height="24" />
+            <text id="2024:36310" name="Bambulé · Perreo de Halloween" x="0" y="28" width="241" height="20" />
+            <text id="2024:36311" name="sáb 31 oct · 9:00 p. m." x="0" y="52" width="241" height="17" />
+          </frame>
+        </frame>
+        <frame id="2024:36312" name="detalle estado" x="13" y="94" width="215" height="17">
+          <text id="2024:36313" name="Enviado hace 3 h · respuesta en 48 h" x="0" y="0" width="215" height="17" />
+        </frame>
+        <frame id="2024:36314" name="acciones" x="13" y="123" width="317" height="44">
+          <frame id="2024:36315" name="btn/editar · Pulso Andino: DJ set" x="0" y="0" width="100.33333587646484" height="44">
+            <frame id="2024:36316" name="icon/pencil" x="22.666667938232422" y="15" width="14" height="14" />
+            <text id="2024:36318" name="Editar" x="40.66666793823242" y="13.5" width="37" height="17" />
+          </frame>
+          <frame id="2024:36319" name="btn/duplicar · Pulso Andino: DJ set" x="108.33333587646484" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36320" name="icon/copy" x="14.666664123535156" y="15" width="14" height="14" />
+            <text id="2024:36323" name="Duplicar" x="32.666664123535156" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36324" name="btn/cancelar · Pulso Andino: DJ set" x="216.66665649414062" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36325" name="icon/ban" x="14.166664123535156" y="15" width="14" height="14" />
+            <text id="2024:36328" name="Cancelar" x="32.166664123535156" y="13.5" width="54" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2024:36329" name="evento/Fiesta de Halloween" x="0" y="646" width="343" height="180">
+        <frame id="2024:36330" name="Frame" x="13" y="13" width="317" height="69">
+          <frame id="2024:36331" name="Frame" x="0" y="2.5" width="64" height="64">
+            <instance id="2024:36332" name="Portada (placeholder)" x="-29" y="0" width="122" height="64" />
+          </frame>
+          <frame id="2024:36340" name="Frame" x="76" y="0" width="241" height="69">
+            <instance id="2024:36341" name="Badge" x="0" y="0" width="103" height="24" />
+            <text id="2024:36345" name="Bambulé · Old School Reggaetón" x="0" y="28" width="241" height="20" />
+            <text id="2024:36346" name="sáb 7 nov · 9:00 p. m." x="0" y="52" width="241" height="17" />
+          </frame>
+        </frame>
+        <frame id="2024:36347" name="detalle estado" x="13" y="94" width="278" height="17">
+          <frame id="2024:36348" name="icon/alert" x="0" y="1.5" width="14" height="14" />
+          <text id="2024:36351" name="Motivo: Falta el permiso de la Alcaldía " x="20" y="0" width="258" height="17" />
+        </frame>
+        <frame id="2024:36352" name="acciones" x="13" y="123" width="317" height="44">
+          <frame id="2024:36353" name="btn/corregir · Fiesta de Halloween" x="0" y="0" width="100.33333587646484" height="44">
+            <frame id="2024:36354" name="icon/pencil" x="15.166667938232422" y="15" width="14" height="14" />
+            <text id="2024:36356" name="Corregir" x="33.16666793823242" y="13.5" width="52" height="17" />
+          </frame>
+          <frame id="2024:36357" name="btn/duplicar · Fiesta de Halloween" x="108.33333587646484" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36358" name="icon/copy" x="14.666664123535156" y="15" width="14" height="14" />
+            <text id="2024:36361" name="Duplicar" x="32.666664123535156" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36362" name="btn/cancelar · Fiesta de Halloween" x="216.66665649414062" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36363" name="icon/ban" x="14.166664123535156" y="15" width="14" height="14" />
+            <text id="2024:36366" name="Cancelar" x="32.166664123535156" y="13.5" width="54" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2024:36367" name="Frame" x="0" y="842" width="10" height="40" />
+    </frame>
+    <rounded-rectangle id="2163:3742" name="espacio bajo tab bar" x="0" y="1018" width="375" height="24" />
+    <frame id="2089:34496" name="barra superior fija" x="0" y="0" width="375" height="47">
+      <instance id="2024:36210" name="Status bar" x="0" y="0" width="375" height="47" />
+    </frame>
+  </frame>
+  <frame id="2024:36368" name="Nota · heurísticas" x="1900" y="956" width="375" height="241">
+    <text id="2024:36369" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2024:36370" name="• Visibilidad del estado: badges de colo" x="17" y="47" width="341" height="51" />
+    <text id="2024:36371" name="• Flexibilidad y eficiencia: editar, dup" x="17" y="106" width="341" height="34" />
+    <text id="2024:36372" name="• Reconocer antes que recordar: “Duplica" x="17" y="148" width="341" height="34" />
+    <text id="2024:36373" name="• Relación con el mundo real: métricas e" x="17" y="190" width="341" height="34" />
+  </frame>
+  <frame id="2024:36374" name="05 · Panel — confirmar cancelación" x="1900" y="1360" width="375" height="812">
+    <ellipse id="2024:36375" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2024:36376" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2024:36377" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2024:36378" name="Status bar" x="0" y="0" width="375" height="47" />
+    <text id="2024:36389" name="hola, bambulé" x="16" y="60" width="97" height="20" />
+    <text id="2024:36390" name="tu panel" x="16" y="80" width="160" height="38" />
+    <frame id="2024:36391" name="btn/notificaciones" x="315" y="72" width="44" height="44">
+      <frame id="2024:36392" name="icon/bell" x="11" y="11" width="22" height="22" />
+      <ellipse id="2024:36395" name="Ellipse" x="26" y="8" width="10" height="10" />
+    </frame>
+    <frame id="2024:36396" name="contenido" x="16" y="136" width="343" height="882">
+      <instance id="2024:36397" name="btn/publicar nuevo evento" x="0" y="0" width="343" height="52" />
+      <frame id="2024:36399" name="Frame" x="0" y="68" width="343" height="22">
+        <text id="2024:36400" name="resumen" x="0" y="0" width="259" height="22" />
+        <text id="2024:36401" name="Últimos 7 días" x="259" y="2.5" width="84" height="17" />
+      </frame>
+      <frame id="2024:36402" name="métricas" x="0" y="106" width="343" height="90">
+        <instance id="2024:36403" name="métrica/Vistas" x="0" y="0" width="107" height="90" />
+        <instance id="2024:36409" name="métrica/Guardados" x="118" y="0" width="107" height="90" />
+        <instance id="2024:36415" name="métrica/Clics a venta" x="236" y="0" width="107" height="90" />
+      </frame>
+      <text id="2024:36421" name="mis eventos" x="0" y="212" width="150" height="26" />
+      <frame id="2024:36422" name="evento/Kaleido: noche de techno" x="0" y="254" width="343" height="180">
+        <frame id="2024:36423" name="Frame" x="13" y="13" width="317" height="69">
+          <frame id="2024:36424" name="Frame" x="0" y="2.5" width="64" height="64">
+            <instance id="2024:36425" name="Portada (placeholder)" x="-29" y="0" width="122" height="64" />
+          </frame>
+          <frame id="2024:36433" name="Frame" x="76" y="0" width="241" height="69">
+            <instance id="2024:36434" name="Badge" x="0" y="0" width="97" height="24" />
+            <text id="2024:36438" name="Bambulé · Viernes de Reggaetón" x="0" y="28" width="241" height="20" />
+            <text id="2024:36439" name="vie 16 oct · 8:00 p. m." x="0" y="52" width="241" height="17" />
+          </frame>
+        </frame>
+        <frame id="2024:36440" name="detalle estado" x="13" y="94" width="152" height="17">
+          <text id="2024:36441" name="128 vistas · 34 guardados" x="0" y="0" width="152" height="17" />
+        </frame>
+        <frame id="2024:36442" name="acciones" x="13" y="123" width="317" height="44">
+          <frame id="2024:36443" name="btn/métricas · Kaleido: noche de techno" x="0" y="0" width="73.25" height="44">
+            <frame id="2024:36444" name="icon/chart" x="1.125" y="15" width="14" height="14" />
+            <text id="2024:36446" name="Métricas" x="19.125" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36447" name="btn/editar · Kaleido: noche de techno" x="81.25" y="0" width="73.25" height="44">
+            <frame id="2024:36448" name="icon/pencil" x="9.125" y="15" width="14" height="14" />
+            <text id="2024:36450" name="Editar" x="27.125" y="13.5" width="37" height="17" />
+          </frame>
+          <frame id="2024:36451" name="btn/duplicar · Kaleido: noche de techno" x="162.5" y="0" width="73.25" height="44">
+            <frame id="2024:36452" name="icon/copy" x="1.125" y="15" width="14" height="14" />
+            <text id="2024:36455" name="Duplicar" x="19.125" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36456" name="btn/cancelar · Kaleido: noche de techno" x="243.75" y="0" width="73.25" height="44">
+            <frame id="2024:36457" name="icon/ban" x="0.625" y="15" width="14" height="14" />
+            <text id="2024:36460" name="Cancelar" x="18.625" y="13.5" width="54" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2024:36461" name="evento/Pulso Andino: DJ set" x="0" y="450" width="343" height="180">
+        <frame id="2024:36462" name="Frame" x="13" y="13" width="317" height="69">
+          <frame id="2024:36463" name="Frame" x="0" y="2.5" width="64" height="64">
+            <instance id="2024:36464" name="Portada (placeholder)" x="-29" y="0" width="122" height="64" />
+          </frame>
+          <frame id="2024:36472" name="Frame" x="76" y="0" width="241" height="69">
+            <instance id="2024:36473" name="Badge" x="0" y="0" width="105" height="24" />
+            <text id="2024:36478" name="Bambulé · Perreo de Halloween" x="0" y="28" width="241" height="20" />
+            <text id="2024:36479" name="sáb 31 oct · 9:00 p. m." x="0" y="52" width="241" height="17" />
+          </frame>
+        </frame>
+        <frame id="2024:36480" name="detalle estado" x="13" y="94" width="215" height="17">
+          <text id="2024:36481" name="Enviado hace 3 h · respuesta en 48 h" x="0" y="0" width="215" height="17" />
+        </frame>
+        <frame id="2024:36482" name="acciones" x="13" y="123" width="317" height="44">
+          <frame id="2024:36483" name="btn/editar · Pulso Andino: DJ set" x="0" y="0" width="100.33333587646484" height="44">
+            <frame id="2024:36484" name="icon/pencil" x="22.666667938232422" y="15" width="14" height="14" />
+            <text id="2024:36486" name="Editar" x="40.66666793823242" y="13.5" width="37" height="17" />
+          </frame>
+          <frame id="2024:36487" name="btn/duplicar · Pulso Andino: DJ set" x="108.33333587646484" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36488" name="icon/copy" x="14.666664123535156" y="15" width="14" height="14" />
+            <text id="2024:36491" name="Duplicar" x="32.666664123535156" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36492" name="btn/cancelar · Pulso Andino: DJ set" x="216.66665649414062" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36493" name="icon/ban" x="14.166664123535156" y="15" width="14" height="14" />
+            <text id="2024:36496" name="Cancelar" x="32.166664123535156" y="13.5" width="54" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2024:36497" name="evento/Fiesta de Halloween" x="0" y="646" width="343" height="180">
+        <frame id="2024:36498" name="Frame" x="13" y="13" width="317" height="69">
+          <frame id="2024:36499" name="Frame" x="0" y="2.5" width="64" height="64">
+            <instance id="2024:36500" name="Portada (placeholder)" x="-29" y="0" width="122" height="64" />
+          </frame>
+          <frame id="2024:36508" name="Frame" x="76" y="0" width="241" height="69">
+            <instance id="2024:36509" name="Badge" x="0" y="0" width="103" height="24" />
+            <text id="2024:36513" name="Bambulé · Old School Reggaetón" x="0" y="28" width="241" height="20" />
+            <text id="2024:36514" name="sáb 7 nov · 9:00 p. m." x="0" y="52" width="241" height="17" />
+          </frame>
+        </frame>
+        <frame id="2024:36515" name="detalle estado" x="13" y="94" width="278" height="17">
+          <frame id="2024:36516" name="icon/alert" x="0" y="1.5" width="14" height="14" />
+          <text id="2024:36519" name="Motivo: Falta el permiso de la Alcaldía " x="20" y="0" width="258" height="17" />
+        </frame>
+        <frame id="2024:36520" name="acciones" x="13" y="123" width="317" height="44">
+          <frame id="2024:36521" name="btn/corregir · Fiesta de Halloween" x="0" y="0" width="100.33333587646484" height="44">
+            <frame id="2024:36522" name="icon/pencil" x="15.166667938232422" y="15" width="14" height="14" />
+            <text id="2024:36524" name="Corregir" x="33.16666793823242" y="13.5" width="52" height="17" />
+          </frame>
+          <frame id="2024:36525" name="btn/duplicar · Fiesta de Halloween" x="108.33333587646484" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36526" name="icon/copy" x="14.666664123535156" y="15" width="14" height="14" />
+            <text id="2024:36529" name="Duplicar" x="32.666664123535156" y="13.5" width="53" height="17" />
+          </frame>
+          <frame id="2024:36530" name="btn/cancelar · Fiesta de Halloween" x="216.66665649414062" y="0" width="100.33332824707031" height="44">
+            <frame id="2024:36531" name="icon/ban" x="14.166664123535156" y="15" width="14" height="14" />
+            <text id="2024:36534" name="Cancelar" x="32.166664123535156" y="13.5" width="54" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2024:36535" name="Frame" x="0" y="842" width="10" height="40" />
+    </frame>
+    <rounded-rectangle id="2024:36536" name="velo" x="0" y="0" width="375" height="812" />
+    <frame id="2024:36537" name="alerta iOS" x="52.5" y="321" width="270" height="171">
+      <frame id="2024:36538" name="Frame" x="0" y="0" width="270" height="126">
+        <text id="2024:36539" name="¿Cancelar “Viernes de Reggaetón”?" x="-14" y="20" width="298" height="20" />
+        <text id="2024:36540" name="Se ocultará del feed y del mapa, y avisaremos a las 34 personas que lo guardaron. Esta acción no se puede deshacer." x="16" y="46" width="238" height="64" />
+      </frame>
+      <rounded-rectangle id="2024:36541" name="Rectangle" x="0" y="126" width="270" height="1" />
+      <frame id="2024:36542" name="botones" x="0" y="127" width="270" height="44">
+        <frame id="2024:36543" name="btn/volver" x="0" y="0" width="135.5" height="44">
+          <text id="2024:36544" name="Volver" x="41.75" y="12" width="51" height="20" />
+        </frame>
+        <frame id="2024:36545" name="btn/confirmar cancelación" x="135.5" y="0" width="134.5" height="44">
+          <text id="2024:36546" name="Cancelar evento" x="-0.75" y="12" width="136" height="20" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <text id="2024:36547" name="Estado de 05 · confirmación antes de can" x="1900" y="1336" width="288" height="17" />
+  <frame id="2024:36548" name="Nota · heurísticas" x="1900" y="2196" width="375" height="123">
+    <text id="2024:36549" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2024:36550" name="• Prevención de errores: confirmación an" x="17" y="47" width="341" height="34" />
+    <text id="2024:36551" name="• Control y libertad: “Volver” como opci" x="17" y="89" width="341" height="17" />
+  </frame>
+  <frame id="2025:36283" name="06 · Formulario de publicación de evento" x="2355" y="120" width="375" height="812">
+    <frame id="2092:40112" name="fondo (brillos)" x="0" y="0" width="375" height="812">
+      <ellipse id="2025:36284" name="brillo" x="-140" y="-160" width="380" height="380" />
+      <ellipse id="2025:36285" name="brillo" x="200" y="520" width="340" height="340" />
+      <ellipse id="2025:36286" name="brillo" x="120" y="260" width="220" height="220" />
+    </frame>
+    <instance id="2025:36287" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2025:36298" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <instance id="2025:36304" name="barra de progreso" x="16" y="108" width="343" height="40" />
+    <frame id="2025:36313" name="campos" x="16" y="164" width="343" height="449">
+      <frame id="2025:36314" name="btn/duplicar evento anterior" x="0" y="0" width="343" height="82">
+        <frame id="2025:36315" name="icon/copy" x="17" y="31" width="20" height="20" />
+        <frame id="2025:36318" name="Frame" x="49" y="13" width="247" height="56">
+          <text id="2025:36319" name="Duplicar un evento anterior" x="0" y="0" width="247" height="20" />
+          <text id="2025:36320" name="Reutiliza los datos de “Kaleido · sep 20" x="0" y="22" width="247" height="34" />
+        </frame>
+        <frame id="2025:36321" name="icon/chev" x="308" y="32" width="18" height="18" />
+      </frame>
+      <instance id="2025:36323" name="input/Nombre del evento" x="0" y="98" width="343" height="77" />
+      <instance id="2025:36331" name="input/Organizadores" x="0" y="191" width="343" height="77" />
+      <frame id="2025:36338" name="portada" x="0" y="284" width="343" height="165">
+        <text id="2025:36339" name="Portada (imagen)" x="0" y="0" width="106" height="17" />
+        <frame id="2025:36340" name="portada subida" x="0" y="25" width="343" height="140">
+          <instance id="2025:36341" name="Portada (placeholder)" x="0" y="-20" width="343" height="180" />
+          <frame id="2025:36349" name="cambiar portada" x="12" y="96" width="245" height="33">
+            <frame id="2025:36350" name="icon/image" x="12" y="9.5" width="14" height="14" />
+            <text id="2025:36354" name="Cambiar portada · 1080 × 1080" x="32" y="8" width="201" height="17" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="2025:36355" name="tooltip" x="60" y="440" width="240" height="73">
+      <text id="2025:36356" name="Agrega a los artistas o productores con " x="13" y="11" width="214" height="51" />
+    </frame>
+    <frame id="2025:36357" name="tooltip/Organizadores" x="102" y="355" width="16" height="16" />
+    <frame id="2025:36360" name="acciones fijas" x="0" y="712" width="375" height="100">
+      <instance id="2025:36361" name="btn/cancelar formulario" x="16" y="12" width="112" height="52" />
+      <instance id="2025:36363" name="btn/siguiente" x="136" y="12" width="223" height="52" />
+    </frame>
+  </frame>
+  <frame id="2025:36365" name="Nota · heurísticas" x="2355" y="956" width="375" height="224">
+    <text id="2025:36366" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2025:36367" name="• Visibilidad del estado: barra de progr" x="17" y="47" width="341" height="34" />
+    <text id="2025:36368" name="• Reconocer antes que recordar: atajo “D" x="17" y="89" width="341" height="34" />
+    <text id="2025:36369" name="• Ayuda y documentación: tooltips en los" x="17" y="131" width="341" height="34" />
+    <text id="2025:36370" name="• Prevención de errores: “Siguiente” sol" x="17" y="173" width="341" height="34" />
+  </frame>
+  <frame id="2025:36371" name="06 · Formulario — paso 2 · fecha y lugar" x="2355" y="1360" width="375" height="812">
+    <frame id="2092:40113" name="fondo (brillos)" x="0" y="0" width="375" height="812">
+      <ellipse id="2025:36372" name="brillo" x="-140" y="-160" width="380" height="380" />
+      <ellipse id="2025:36373" name="brillo" x="200" y="520" width="340" height="340" />
+      <ellipse id="2025:36374" name="brillo" x="120" y="260" width="220" height="220" />
+    </frame>
+    <instance id="2025:36375" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2025:36386" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <instance id="2025:36392" name="barra de progreso" x="16" y="108" width="343" height="40" />
+    <frame id="2025:36401" name="campos" x="16" y="164" width="343" height="502">
+      <instance id="2025:36402" name="input/Dirección" x="0" y="0" width="343" height="77" />
+      <frame id="2025:36410" name="vista previa del mapa" x="0" y="93" width="343" height="120">
+        <instance id="2025:36411" name="Mapa Bogotá (base · modo oscuro)" x="-280" y="-280" width="600" height="1000" />
+        <instance id="2025:40503" name="Map pin" x="150" y="30" width="44" height="52" />
+      </frame>
+      <frame id="2025:40516" name="fecha y hora" x="0" y="229" width="343" height="77">
+        <frame id="2025:40517" name="Frame" x="0" y="0" width="165.5" height="77">
+          <text id="2025:40518" name="Fecha" x="0" y="0" width="36" height="17" />
+          <frame id="2025:40519" name="selector/Fecha" x="0" y="25" width="160" height="52">
+            <frame id="2025:40520" name="icon/cal" x="15" y="17" width="18" height="18" />
+            <text id="2025:40523" name="vie 16 oct 2026" x="41" y="16" width="113" height="20" />
+          </frame>
+        </frame>
+        <frame id="2025:40524" name="Frame" x="177.5" y="0" width="165.5" height="77">
+          <text id="2025:40525" name="Hora" x="0" y="0" width="30" height="17" />
+          <frame id="2025:40526" name="selector/Hora" x="0" y="25" width="160" height="52">
+            <frame id="2025:40527" name="icon/clock" x="16" y="17" width="18" height="18" />
+            <text id="2025:40530" name="8:00 p. m." x="42" y="16" width="71" height="20" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2025:40531" name="selector de hora (iOS)" x="0" y="322" width="343" height="180">
+        <rounded-rectangle id="2025:40532" name="Rectangle" x="8" y="72" width="327" height="36" />
+        <text id="2025:40533" name="8" x="80" y="8" width="13" height="24" />
+        <text id="2025:40534" name="9" x="80" y="44" width="13" height="24" />
+        <text id="2025:40535" name="10" x="80" y="79" width="25" height="26" />
+        <text id="2025:40536" name="11" x="80" y="116" width="19" height="24" />
+        <text id="2025:40537" name="12" x="80" y="152" width="22" height="24" />
+        <text id="2025:40538" name="50" x="170" y="8" width="25" height="24" />
+        <text id="2025:40539" name="55" x="170" y="44" width="25" height="24" />
+        <text id="2025:40540" name="00" x="170" y="79" width="29" height="26" />
+        <text id="2025:40541" name="05" x="170" y="116" width="25" height="24" />
+        <text id="2025:40542" name="10" x="170" y="152" width="22" height="24" />
+        <text id="2025:40543" name="a. m." x="260" y="44" width="45" height="24" />
+        <text id="2025:40544" name="p. m." x="260" y="79" width="49" height="26" />
+      </frame>
+    </frame>
+    <frame id="2025:40545" name="acciones fijas" x="0" y="712" width="375" height="100">
+      <instance id="2025:40546" name="btn/atrás" x="16" y="12" width="112" height="52" />
+      <instance id="2025:40548" name="btn/siguiente" x="136" y="12" width="223" height="52" />
+    </frame>
+  </frame>
+  <text id="2025:40550" name="06 · paso 2 de 4" x="2355" y="1336" width="104" height="17" />
+  <frame id="2025:40551" name="Nota · heurísticas" x="2355" y="2196" width="375" height="140">
+    <text id="2025:40552" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2025:40553" name="• Consistencia y estándares: selector de" x="17" y="47" width="341" height="34" />
+    <text id="2025:40554" name="• Relación con el mundo real: vista prev" x="17" y="89" width="341" height="34" />
+  </frame>
+  <frame id="2025:40555" name="06 · Formulario — paso 3 · clasificación" x="2810" y="1360" width="375" height="812">
+    <frame id="2092:40114" name="fondo (brillos)" x="0" y="0" width="375" height="812">
+      <ellipse id="2025:40556" name="brillo" x="-140" y="-160" width="380" height="380" />
+      <ellipse id="2025:40557" name="brillo" x="200" y="520" width="340" height="340" />
+      <ellipse id="2025:40558" name="brillo" x="120" y="260" width="220" height="220" />
+    </frame>
+    <instance id="2025:40559" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2025:40570" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <instance id="2025:40576" name="barra de progreso" x="16" y="108" width="343" height="40" />
+    <frame id="2025:40585" name="campos" x="16" y="164" width="343" height="627">
+      <frame id="2025:40586" name="grupo/Género" x="0" y="0" width="343" height="121">
+        <text id="2025:40587" name="Género" x="0" y="0" width="45" height="17" />
+        <frame id="2025:40588" name="Frame" x="0" y="25" width="343" height="96">
+          <instance id="2025:40589" name="chip/Reggaetón" x="0" y="0" width="131" height="44" />
+          <instance id="2025:40593" name="chip/Urbano" x="139" y="0" width="107" height="44" />
+          <instance id="2025:40597" name="chip/Pop latino" x="0" y="52" width="107" height="44" />
+          <instance id="2025:40599" name="chip/Electrónica" x="115" y="52" width="114" height="44" />
+          <instance id="2025:40601" name="chip/Salsa" x="237" y="52" width="71" height="44" />
+        </frame>
+      </frame>
+      <frame id="2025:40603" name="grupo/Formato de acto" x="0" y="137" width="343" height="69">
+        <text id="2025:40604" name="Formato de acto" x="0" y="0" width="101" height="17" />
+        <frame id="2025:40605" name="Frame" x="0" y="25" width="343" height="44">
+          <instance id="2025:40606" name="chip/DJ set" x="0" y="0" width="98" height="44" />
+          <instance id="2025:40610" name="chip/En vivo" x="106" y="0" width="87" height="44" />
+          <instance id="2025:40612" name="chip/Acústico" x="201" y="0" width="96" height="44" />
+        </frame>
+      </frame>
+      <frame id="2025:40614" name="grupo/Tipo de venue" x="0" y="222" width="343" height="121">
+        <text id="2025:40615" name="Tipo de venue" x="0" y="0" width="88" height="17" />
+        <frame id="2025:40616" name="Frame" x="0" y="25" width="343" height="96">
+          <instance id="2025:40617" name="chip/Club" x="0" y="0" width="88" height="44" />
+          <instance id="2025:40621" name="chip/Bar" x="96" y="0" width="78" height="44" />
+          <instance id="2025:40623" name="chip/Teatro" x="182" y="0" width="82" height="44" />
+          <instance id="2025:40625" name="chip/Al aire libre" x="0" y="52" width="119" height="44" />
+        </frame>
+      </frame>
+      <frame id="2025:40627" name="rango de precio" x="0" y="359" width="343" height="77">
+        <instance id="2025:40628" name="input/Precio desde (COP)" x="0" y="0" width="165.5" height="77" />
+        <instance id="2025:40636" name="input/Precio hasta (COP)" x="177.5" y="0" width="165.5" height="77" />
+      </frame>
+      <frame id="2025:40644" name="clasificación de edad" x="0" y="452" width="343" height="79">
+        <text id="2025:40645" name="Clasificación de edad" x="0" y="0" width="131" height="17" />
+        <frame id="2025:40646" name="Frame" x="0" y="25" width="343" height="54">
+          <frame id="2025:40647" name="edad/Todo público" x="5" y="5" width="108.33333587646484" height="44">
+            <text id="2025:40648" name="Todo público" x="6.666667938232422" y="12" width="95" height="20" />
+          </frame>
+          <frame id="2025:40649" name="edad/+14" x="117.33333587646484" y="5" width="108.33332824707031" height="44">
+            <text id="2025:40650" name="+14" x="39.166664123535156" y="12" width="30" height="20" />
+          </frame>
+          <frame id="2025:40651" name="edad/+18" x="229.66665649414062" y="5" width="108.33332824707031" height="44">
+            <text id="2025:40652" name="+18" x="39.166664123535156" y="12" width="30" height="20" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2025:40653" name="Frame" x="0" y="547" width="10" height="80" />
+    </frame>
+    <rounded-rectangle id="2163:3743" name="espacio bajo tab bar" x="0" y="791" width="375" height="124" />
+    <frame id="2025:40654" name="acciones fijas" x="0" y="712" width="375" height="100">
+      <instance id="2025:40655" name="btn/atrás" x="16" y="12" width="112" height="52" />
+      <instance id="2025:40657" name="btn/siguiente" x="136" y="12" width="223" height="52" />
+    </frame>
+  </frame>
+  <text id="2025:40659" name="06 · paso 3 de 4" x="2810" y="1336" width="104" height="17" />
+  <frame id="2025:40660" name="Nota · heurísticas" x="2810" y="2196" width="375" height="140">
+    <text id="2025:40661" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2025:40662" name="• Reconocer antes que recordar: chips de" x="17" y="47" width="341" height="34" />
+    <text id="2025:40663" name="• Relación con el mundo real: rango de p" x="17" y="89" width="341" height="34" />
+  </frame>
+  <frame id="2025:40664" name="06 · Formulario — paso 4 · venta y permisos" x="3265" y="1360" width="375" height="812">
+    <frame id="2092:40115" name="fondo (brillos)" x="0" y="0" width="375" height="812">
+      <ellipse id="2025:40665" name="brillo" x="-140" y="-160" width="380" height="380" />
+      <ellipse id="2025:40666" name="brillo" x="200" y="520" width="340" height="340" />
+      <ellipse id="2025:40667" name="brillo" x="120" y="260" width="220" height="220" />
+    </frame>
+    <instance id="2025:40668" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2025:40679" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <instance id="2025:40685" name="barra de progreso" x="16" y="108" width="343" height="40" />
+    <frame id="2025:40694" name="campos" x="16" y="164" width="343" height="447">
+      <instance id="2025:40695" name="input/Link de venta oficial" x="0" y="0" width="343" height="102" />
+      <frame id="2025:40703" name="permisos" x="0" y="118" width="343" height="111">
+        <text id="2025:40704" name="Permisos" x="0" y="0" width="57" height="17" />
+        <frame id="2025:40705" name="carga/permisos" x="0" y="25" width="343" height="86">
+          <frame id="2025:40706" name="Frame" x="17" y="23" width="40" height="40">
+            <frame id="2025:40707" name="icon/check" x="10" y="10" width="20" height="20" />
+          </frame>
+          <frame id="2025:40709" name="Frame" x="69" y="15" width="257" height="56">
+            <text id="2025:40710" name="Permiso de la Alcaldía (PMU)" x="0" y="0" width="257" height="20" />
+            <text id="2025:40711" name="licencia_bambule_zona-rosa.pdf · 860 KB · Subido" x="0" y="22" width="257" height="34" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="2025:40712" name="input/Restricciones" x="0" y="245" width="343" height="128" />
+      <frame id="2025:40723" name="aviso revisión" x="0" y="389" width="343" height="58">
+        <frame id="2025:40724" name="icon/clock" x="12" y="12" width="16" height="16" />
+        <text id="2025:40727" name="Revisaremos tu evento en máximo 48 horas" x="38" y="12" width="293" height="34" />
+      </frame>
+    </frame>
+    <frame id="2025:40718" name="tooltip" x="40" y="369" width="240" height="73">
+      <text id="2025:40719" name="Sube el PMU o el permiso de la Alcaldía " x="13" y="11" width="214" height="51" />
+    </frame>
+    <frame id="2025:40720" name="tooltip/Permisos" x="72" y="282" width="16" height="16" />
+    <frame id="2025:40728" name="acciones fijas" x="0" y="712" width="375" height="100">
+      <instance id="2025:40729" name="btn/atrás" x="16" y="12" width="112" height="52" />
+      <instance id="2025:40731" name="btn/enviar a revisión" x="136" y="12" width="223" height="52" />
+    </frame>
+  </frame>
+  <text id="2025:40733" name="06 · paso 4 de 4" x="3265" y="1336" width="104" height="17" />
+  <frame id="2025:40734" name="Nota · heurísticas" x="3265" y="2196" width="375" height="182">
+    <text id="2025:40735" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2025:40736" name="• Prevención de errores: validación del " x="17" y="47" width="341" height="34" />
+    <text id="2025:40737" name="• Ayuda y documentación: tooltip que exp" x="17" y="89" width="341" height="34" />
+    <text id="2025:40738" name="• Visibilidad del estado: aviso de revis" x="17" y="131" width="341" height="34" />
+  </frame>
+  <frame id="2026:40550" name="07 · Evento en revisión" x="2810" y="120" width="375" height="812">
+    <ellipse id="2026:40551" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2026:40552" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2026:40553" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2026:40554" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2026:40565" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2026:40571" name="contenido" x="16" y="120" width="343" height="639">
+      <frame id="2026:40572" name="en espera" x="0" y="0" width="88" height="88">
+        <frame id="2026:40573" name="icon/hour" x="24" y="24" width="40" height="40" />
+      </frame>
+      <text id="2026:40575" name="tu evento está en revisión" x="0" y="104" width="343" height="76" />
+      <text id="2026:40576" name="Te avisaremos cuando sea aprobado. Esto " x="0" y="196" width="343" height="48" />
+      <frame id="2026:40577" name="estado" x="0" y="260" width="343" height="175">
+        <frame id="2026:40578" name="Frame" x="16" y="16" width="311" height="52">
+          <frame id="2026:40579" name="Frame" x="0" y="0" width="24" height="52">
+            <frame id="2026:40580" name="Frame" x="0" y="0" width="24" height="24">
+              <frame id="2026:40581" name="icon/check" x="5" y="5" width="14" height="14" />
+            </frame>
+            <rounded-rectangle id="2026:40583" name="Rectangle" x="11" y="24" width="2" height="28" />
+          </frame>
+          <frame id="2026:40584" name="Frame" x="36" y="0" width="275" height="39">
+            <text id="2026:40585" name="Enviado" x="0" y="0" width="275" height="20" />
+            <text id="2026:40586" name="hoy · 4:12 p. m." x="0" y="22" width="275" height="17" />
+          </frame>
+        </frame>
+        <frame id="2026:40587" name="Frame" x="16" y="68" width="311" height="52">
+          <frame id="2026:40588" name="Frame" x="0" y="0" width="24" height="52">
+            <frame id="2026:40589" name="Frame" x="0" y="0" width="24" height="24" />
+            <rounded-rectangle id="2026:40590" name="Rectangle" x="11" y="24" width="2" height="28" />
+          </frame>
+          <frame id="2026:40591" name="Frame" x="36" y="0" width="275" height="39">
+            <text id="2026:40592" name="En revisión" x="0" y="0" width="275" height="20" />
+            <text id="2026:40593" name="Respuesta antes del lun 12 oct · 4:12 p." x="0" y="22" width="275" height="17" />
+          </frame>
+        </frame>
+        <frame id="2026:40594" name="Frame" x="16" y="120" width="311" height="39">
+          <frame id="2026:40595" name="Frame" x="0" y="0" width="24" height="24">
+            <frame id="2026:40596" name="Frame" x="0" y="0" width="24" height="24" />
+          </frame>
+          <frame id="2026:40597" name="Frame" x="36" y="0" width="275" height="39">
+            <text id="2026:40598" name="Publicado" x="0" y="0" width="275" height="20" />
+            <text id="2026:40599" name="Visible en el feed, el mapa y los filtro" x="0" y="22" width="275" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2026:40600" name="aviso rechazo" x="0" y="451" width="343" height="60">
+        <frame id="2026:40601" name="icon/alert" x="13" y="13" width="16" height="16" />
+        <text id="2026:40604" name="Si es rechazado, verás el motivo en tu p" x="39" y="13" width="291" height="34" />
+      </frame>
+      <instance id="2026:40605" name="btn/volver al panel" x="0" y="527" width="343" height="52" />
+      <frame id="2026:40607" name="link/simular aprobación" x="0" y="595" width="343" height="44">
+        <text id="2026:40608" name="(Prototipo) Simular aprobación →" x="68.5" y="13.5" width="206" height="17" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="2026:40609" name="Nota · heurísticas" x="2810" y="956" width="375" height="165">
+    <text id="2026:40610" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2026:40611" name="• Visibilidad del estado: línea de tiemp" x="17" y="47" width="341" height="34" />
+    <text id="2026:40612" name="• Ayuda: explica qué pasa si se rechaza " x="17" y="89" width="341" height="34" />
+    <text id="2026:40613" name="• Control y libertad: “Volver al panel” " x="17" y="131" width="341" height="17" />
+  </frame>
+  <frame id="2026:40614" name="08 · Confirmación de publicación" x="3265" y="120" width="375" height="812">
+    <ellipse id="2026:40615" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2026:40616" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2026:40617" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2026:40618" name="Status bar" x="0" y="0" width="375" height="47" />
+    <ellipse id="2026:40629" name="Ellipse" x="27" y="40" width="320" height="320" />
+    <frame id="2026:40630" name="contenido" x="16" y="96" width="343" height="673">
+      <frame id="2026:40631" name="éxito" x="0" y="0" width="88" height="88">
+        <frame id="2026:40632" name="icon/check" x="22" y="22" width="44" height="44" />
+      </frame>
+      <text id="2026:40634" name="¡evento publicado!" x="0" y="104" width="343" height="76" />
+      <text id="2026:40635" name="Ya es visible en el feed, el mapa y los " x="0" y="196" width="343" height="48" />
+      <frame id="2026:40636" name="dónde aparece" x="0" y="260" width="256" height="35">
+        <frame id="2026:40637" name="Frame" x="0" y="0" width="75" height="35">
+          <frame id="2026:40638" name="icon/home" x="13" y="10.5" width="14" height="14" />
+          <text id="2026:40641" name="Feed" x="33" y="9" width="29" height="17" />
+        </frame>
+        <frame id="2026:40642" name="Frame" x="83" y="0" width="79" height="35">
+          <frame id="2026:40643" name="icon/map" x="13" y="10.5" width="14" height="14" />
+          <text id="2026:40645" name="Mapa" x="33" y="9" width="33" height="17" />
+        </frame>
+        <frame id="2026:40646" name="Frame" x="170" y="0" width="86" height="35">
+          <frame id="2026:40647" name="icon/sliders" x="13" y="10.5" width="14" height="14" />
+          <text id="2026:40649" name="Filtros" x="33" y="9" width="40" height="17" />
+        </frame>
+      </frame>
+      <instance id="2026:40650" name="vista previa en el feed/El Kalvo: 20 años de rap rolo" x="0" y="311" width="343" height="294" />
+      <instance id="2026:40676" name="btn/volver al panel" x="0" y="621" width="343" height="52" />
+    </frame>
+  </frame>
+  <frame id="2026:40678" name="Nota · heurísticas" x="3265" y="956" width="375" height="140">
+    <text id="2026:40679" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2026:40680" name="• Visibilidad del estado: confirmación c" x="17" y="47" width="341" height="34" />
+    <text id="2026:40681" name="• Consistencia: vista previa con la mism" x="17" y="89" width="341" height="34" />
+  </frame>
+  <frame id="2026:40682" name="09 · Métricas del evento" x="3720" y="120" width="375" height="812">
+    <frame id="2092:40116" name="fondo (brillos)" x="0" y="0" width="375" height="812">
+      <ellipse id="2026:40683" name="brillo" x="-140" y="-160" width="380" height="380" />
+      <ellipse id="2026:40684" name="brillo" x="200" y="520" width="340" height="340" />
+      <ellipse id="2026:40685" name="brillo" x="120" y="260" width="220" height="220" />
+    </frame>
+    <frame id="2026:40703" name="contenido" x="16" y="112" width="343" height="712">
+      <frame id="2026:40704" name="Frame" x="0" y="0" width="343" height="56">
+        <frame id="2026:40705" name="Frame" x="0" y="0" width="56" height="56">
+          <instance id="2026:40706" name="Portada (placeholder)" x="-25" y="0" width="107" height="56" />
+        </frame>
+        <frame id="2026:40714" name="Frame" x="68" y="2" width="275" height="52">
+          <text id="2026:40715" name="Bambulé · Viernes de Reggaetón" x="0" y="0" width="275" height="24" />
+          <instance id="2026:40716" name="Badge" x="0" y="28" width="97" height="24" />
+        </frame>
+      </frame>
+      <frame id="2026:40720" name="métricas" x="0" y="72" width="343" height="90">
+        <instance id="2026:40721" name="Metric tile" x="0" y="0" width="107" height="90" />
+        <instance id="2026:40727" name="Metric tile" x="118" y="0" width="107" height="90" />
+        <instance id="2026:40733" name="Metric tile" x="236" y="0" width="107" height="90" />
+      </frame>
+      <frame id="2026:40739" name="gráfica" x="0" y="178" width="343" height="390">
+        <text id="2026:40740" name="vistas y guardados en el tiempo" x="17" y="17" width="309" height="44" />
+        <frame id="2026:40741" name="Frame" x="17" y="73" width="158" height="17">
+          <frame id="2026:40742" name="Frame" x="0" y="0" width="57" height="17">
+            <rounded-rectangle id="2026:40743" name="Rectangle" x="0" y="7" width="16" height="3" />
+            <text id="2026:40744" name="Vistas" x="22" y="0" width="35" height="17" />
+          </frame>
+          <frame id="2026:40745" name="Frame" x="73" y="0" width="85" height="17">
+            <rounded-rectangle id="2026:40746" name="Rectangle" x="0" y="7" width="16" height="3" />
+            <text id="2026:40747" name="Guardados" x="22" y="0" width="63" height="17" />
+          </frame>
+        </frame>
+        <frame id="2026:40748" name="líneas" x="17" y="102" width="311" height="150">
+          <vector id="2026:40749" name="Vector" x="0" y="10" width="311" height="0" />
+          <vector id="2026:40750" name="Vector" x="0" y="53.29999923706055" width="311" height="0" />
+          <vector id="2026:40751" name="Vector" x="0" y="96.69999694824219" width="311" height="0" />
+          <vector id="2026:40752" name="Vector" x="0" y="140" width="311" height="0" />
+          <vector id="2026:40753" name="Vector" x="5" y="33.70000076293945" width="301" height="106.30000305175781" />
+          <vector id="2026:40754" name="Vector" x="5" y="33.70000076293945" width="301" height="85.69999694824219" />
+          <vector id="2026:40755" name="Vector" x="5" y="105.69999694824219" width="301" height="30.900009155273438" />
+          <vector id="2026:40756" name="Vector" x="2" y="116.42857360839844" width="6" height="6" />
+          <vector id="2026:40757" name="Vector" x="52.16666793823242" y="89" width="6" height="6" />
+          <vector id="2026:40758" name="Vector" x="102.33333587646484" y="61.57143020629883" width="6" height="5.999996185302734" />
+          <vector id="2026:40759" name="Vector" x="152.5" y="75.28571319580078" width="6" height="6" />
+          <vector id="2026:40760" name="Vector" x="202.6666717529297" y="30.714284896850586" width="6" height="6.000001907348633" />
+          <vector id="2026:40761" name="Vector" x="252.8333282470703" y="54.71428680419922" width="6.0000152587890625" height="6" />
+          <vector id="2026:40762" name="Vector" x="303" y="92.42857360839844" width="6" height="6" />
+          <vector id="2026:40763" name="Vector" x="199.6666717529297" y="27.714284896850586" width="12" height="12.000001907348633" />
+        </frame>
+        <frame id="2026:40764" name="eje x" x="17" y="264" width="309" height="17">
+          <text id="2026:40765" name="4" x="0" y="0" width="8" height="17" />
+          <text id="2026:40766" name="5" x="48.83333206176758" y="0" width="8" height="17" />
+          <text id="2026:40767" name="6" x="97.66666412353516" y="0" width="8" height="17" />
+          <text id="2026:40768" name="7" x="146.5" y="0" width="8" height="17" />
+          <text id="2026:40769" name="8" x="195.3333282470703" y="0" width="8" height="17" />
+          <text id="2026:40770" name="9" x="244.16665649414062" y="0" width="8" height="17" />
+          <text id="2026:40771" name="10" x="293" y="0" width="16" height="17" />
+        </frame>
+        <text id="2026:40846" name="Octubre · últimos 7 días" x="17" y="293" width="141" height="14" />
+        <frame id="2026:40772" name="dato destacado" x="17" y="319" width="309" height="54">
+          <frame id="2026:40773" name="icon/trend" x="12" y="19" width="16" height="16" />
+          <text id="2026:40776" name="Mejor día: lun 12 oct · 31 vistas y 10 g" x="36" y="10" width="261" height="34" />
+        </frame>
+      </frame>
+      <frame id="2026:40777" name="conversión" x="0" y="584" width="343" height="88">
+        <frame id="2026:40778" name="Frame" x="16" y="16" width="193" height="56">
+          <text id="2026:40779" name="Tasa de guardado" x="0" y="0" width="130" height="20" />
+          <text id="2026:40780" name="De cada 100 vistas, 27 guardan el evento" x="0" y="22" width="193" height="34" />
+        </frame>
+        <text id="2026:40781" name="27 %" x="217" y="17.5" width="110" height="53" />
+      </frame>
+      <frame id="2026:40782" name="Frame" x="0" y="688" width="10" height="24" />
+    </frame>
+    <rounded-rectangle id="2163:3744" name="espacio bajo tab bar" x="0" y="824" width="375" height="24" />
+    <frame id="2089:34497" name="barra superior fija" x="0" y="0" width="375" height="103">
+      <instance id="2026:40686" name="Status bar" x="0" y="0" width="375" height="47" />
+      <instance id="2026:40697" name="Nav bar" x="0" y="47" width="375" height="56" />
+    </frame>
+  </frame>
+  <frame id="2026:40783" name="Nota · heurísticas" x="3720" y="956" width="375" height="182">
+    <text id="2026:40784" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2026:40785" name="• Visibilidad del estado: cifras en Anto" x="17" y="47" width="341" height="34" />
+    <text id="2026:40786" name="• Relación con el mundo real: fechas en " x="17" y="89" width="341" height="34" />
+    <text id="2026:40787" name="• Estético y minimalista: solo las tres " x="17" y="131" width="341" height="34" />
+  </frame>
+  <frame id="2026:40788" name="10 · Notificaciones del organizador" x="4175" y="120" width="375" height="812">
+    <ellipse id="2026:40789" name="brillo" x="-140" y="-160" width="380" height="380" />
+    <ellipse id="2026:40790" name="brillo" x="200" y="520" width="340" height="340" />
+    <ellipse id="2026:40791" name="brillo" x="120" y="260" width="220" height="220" />
+    <instance id="2026:40792" name="Status bar" x="0" y="0" width="375" height="47" />
+    <instance id="2026:40803" name="Nav bar" x="0" y="47" width="375" height="56" />
+    <frame id="2026:40809" name="lista" x="16" y="112" width="343" height="435">
+      <text id="2026:40810" name="hoy" x="0" y="0" width="40" height="22" />
+      <instance id="2026:40811" name="notificación/Evento aprobado" x="0" y="34" width="343" height="119" />
+      <instance id="2026:40821" name="notificación/Hito alcanzado" x="0" y="165" width="343" height="119" />
+      <instance id="2026:40832" name="notificación/Actualiza tu evento" x="0" y="296" width="343" height="139" />
+    </frame>
+  </frame>
+  <frame id="2026:40842" name="Nota · heurísticas" x="4175" y="956" width="375" height="140">
+    <text id="2026:40843" name="heurísticas de nielsen" x="17" y="17" width="341" height="22" />
+    <text id="2026:40844" name="• Consistencia: mismo componente de noti" x="17" y="47" width="341" height="34" />
+    <text id="2026:40845" name="• Visibilidad del estado: aprobación, hi" x="17" y="89" width="341" height="34" />
+  </frame>
+</section>

@@ -1,0 +1,6 @@
+.wrap { display: flex; flex-direction: column; gap: var(--space-2); width: 100%; }
+.texto { display: flex; font: 400 12px/1.4 var(--font-body); color: var(--text-secondary); }
+.texto strong { flex: 1; color: var(--text-primary); }
+.barra { display: flex; gap: 6px; }
+.seg { flex: 1; height: 6px; border-radius: 3px; background: var(--track); }
+.on { background: var(--gradient-progress); }

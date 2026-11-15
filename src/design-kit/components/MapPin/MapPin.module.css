@@ -1,0 +1,41 @@
+.pin { position: absolute; width: 44px; height: 52px; transform: translate(-50%, -100%); z-index: 2; }
+.burbuja {
+  position: absolute; left: 0; top: 0; width: 44px; height: 44px; border-radius: 22px;
+  background: var(--pin); box-shadow: var(--shadow-pin); overflow: hidden;
+}
+.foto { position: absolute; left: 3px; top: 3px; width: 38px; height: 38px; border-radius: 19px; overflow: hidden; }
+.punta {
+  position: absolute; left: 16px; top: 43px; width: 12px; height: 8px;
+  background: var(--pin); clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+.sel { width: 160px; height: 104px; z-index: 3; transform: translate(-50%, -67px); }
+.sel .burbuja { left: 50px; width: 60px; height: 60px; border-radius: 30px; }
+.sel .foto { width: 54px; height: 54px; border-radius: 27px; }
+.sel .punta { left: 74px; top: 59px; }
+.etiqueta {
+  position: absolute; left: 50%; top: 72px; transform: translateX(-50%);
+  padding: 6px 12px; border-radius: var(--radius-pill); white-space: nowrap;
+  background: var(--glass-label); border: 1px solid var(--pin);
+  font: 700 12px/1.4 var(--font-body); color: var(--text-primary);
+}
+.cluster {
+  position: absolute; width: 64px; height: 64px; border-radius: 32px; transform: translate(-50%, -50%); z-index: 2;
+  background: color-mix(in srgb, var(--brand-secondary) 35%, transparent);
+}
+.clusterIn {
+  position: absolute; left: 8px; top: 8px; width: 48px; height: 48px; border-radius: 24px;
+  display: grid; place-items: center;
+  background: var(--brand-secondary); border: 2px solid var(--text-primary);
+  font: 400 20px/1.1 var(--font-figures);
+}
+.user { position: absolute; width: 72px; height: 72px; border-radius: 36px; transform: translate(-50%, -50%); background: color-mix(in srgb, var(--brand-primary) 18%, transparent); z-index: 1; }
+.userMid { position: absolute; inset: 18px; border-radius: 50%; background: var(--text-primary); }
+.userDot { position: absolute; inset: 24px; border-radius: 50%; background: var(--brand-primary); }
+.controls {
+  display: flex; flex-direction: column; width: 46px;
+  background: var(--glass-control); backdrop-filter: var(--blur-bar); -webkit-backdrop-filter: var(--blur-bar);
+  border: 1px solid var(--border-subtle); border-radius: var(--radius-control); overflow: hidden;
+}
+.ctrl { display: grid; place-items: center; width: 44px; height: 44px; color: var(--text-primary); }
+.nav { color: var(--brand-primary); }
+.sep { height: 1px; background: var(--border-subtle); }

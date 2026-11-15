@@ -1,0 +1,7 @@
+.btn {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; height: 56px; border-radius: var(--radius-pill);
+  font: 700 16px/normal var(--font-system);
+}
+.spotify { background: var(--spotify-green); color: #000; }
+.apple { background: linear-gradient(90deg, var(--apple-start), var(--apple-end)); color: #fff; }
