@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIFF · 05 · Búsqueda — escribir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lunasima:wght@400;700&family=Unbounded:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/prototipo.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"></path></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></symbol><symbol id="i-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"></path> <path d="m6 6 12 12"></path></symbol></svg>
+<div class="escenario">
+<main class="telefono">
+<section class="pantalla con-nav activa" id="busqueda-escribir"><div class="barra-estado"><span class="hora">9:41</span>
+<svg fill="#fff" height="13" viewbox="0 0 78 13" width="78"><rect height="4" rx="1" width="3" x="0" y="8"></rect><rect height="6" rx="1" width="3" x="5" y="6"></rect><rect height="9" rx="1" width="3" x="10" y="3"></rect><rect height="12" rx="1" width="3" x="15" y="0"></rect>
+<path d="M30.5 3.2a8.8 8.8 0 0 1 12 0l1.1-1.2a10.4 10.4 0 0 0-14.2 0zm2.2 2.4a5.6 5.6 0 0 1 7.6 0l1.1-1.2a7.2 7.2 0 0 0-9.8 0zm3.8 4.6 2.1-2.2a3 3 0 0 0-4.2 0z"></path>
+<rect fill="none" height="12" rx="3.5" stroke="#fff" stroke-opacity=".4" width="24" x="51" y="0.5"></rect><rect height="8" rx="2" width="20" x="53" y="2.5"></rect><rect fill-opacity=".4" height="5" rx=".75" width="1.5" x="76" y="4"></rect></svg></div>
+<div class="nav"><button class="izq boton-circulo" data-volver=""><svg class="ic s22"><use href="#i-chevron-left"></use></svg></button><span class="titulo">buscar</span></div>
+<div class="contenido" style="top:112px;bottom:270px">
+<div class="busqueda foco"><svg class="ic s20"><use href="#i-search"></use></svg><span class="flex1">Busca un evento, artista o venue</span><span class="boton-circulo" style="width:28px;height:28px;background:rgba(255,255,255,.15)"><svg class="ic s14"><use href="#i-x"></use></svg></span></div>
+<p class="p12 suave mt16">eventos en RIFF</p>
+<div class="lista mt8"><a class="fila-evento" data-tipo="bloque" href="detalle-omar-courtz.html">
+<div class="miniatura" style="background-image:url(../assets/portada-omar-courtz.jpg)"></div>
+<div class="flex1">
+<h3 class="titulo elipsis">Omar Courtz: Por si mañana no estoy</h3>
+<p class="linea elipsis">Movistar Arena · a 3,4 km</p>
+<div class="fila g8"><span class="linea elipsis flex1">jue 12 nov · 8:00 p. m.</span><span class="precio" style="font-size:13px">desde $189.000</span></div>
+</div>
+<button class="marcador" data-href="guardado.html"><svg class="ic s22 relleno"><use href="#i-bookmark"></use></svg></button>
+</a><a class="fila-evento" data-tipo="bloque" href="detalle-el-kalvo.html">
+<div class="miniatura" style="background-image:url(../assets/portada-el-kalvo.jpg)"></div>
+<div class="flex1">
+<h3 class="titulo elipsis">El Kalvo: 20 años de rap rolo</h3>
+<p class="linea elipsis">Teatro Gaitán · a 1,2 km</p>
+<div class="fila g8"><span class="linea elipsis flex1">sáb 17 oct · 8:00 p. m.</span><span class="precio" style="font-size:13px">desde $88.800</span></div>
+</div>
+<button class="marcador" data-href="guardado.html"><svg class="ic s22 relleno"><use href="#i-bookmark"></use></svg></button>
+</a><a class="fila-evento" data-tipo="bloque" href="detalle-penyair.html">
+<div class="miniatura" style="background-image:url(../assets/portada-penyair.jpg)"></div>
+<div class="flex1">
+<h3 class="titulo elipsis">Penyair: Desde Abajo Tour</h3>
+<p class="linea elipsis">Teatro Gaitán · a 1,2 km</p>
+<div class="fila g8"><span class="linea elipsis flex1">dom 29 nov · 6:00 p. m.</span><span class="precio" style="font-size:13px">desde $98.200</span></div>
+</div>
+<button class="marcador vacio" data-href="guardado.html"><svg class="ic s22"><use href="#i-bookmark"></use></svg></button>
+</a><a class="fila-evento" data-tipo="bloque" href="detalle-berliner.html">
+<div class="miniatura" style="background-image:url(../assets/portada-berliner-philharmoniker.jpg)"></div>
+<div class="flex1">
+<h3 class="titulo elipsis">Berliner Philharmoniker</h3>
+<p class="linea elipsis">Teatro Mayor JMSD · a 11,8 km</p>
+<div class="fila g8"><span class="linea elipsis flex1">mié 14 oct · 8:00 p. m.</span><span class="precio" style="font-size:13px">desde $44.300</span></div>
+</div>
+<button class="marcador" data-href="guardado.html"><svg class="ic s22 relleno"><use href="#i-bookmark"></use></svg></button>
+</a><a class="fila-evento" data-tipo="bloque" href="detalle-slipknot.html">
+<div class="miniatura" style="background-image:url(../assets/portada-slipknot.jpg)"></div>
+<div class="flex1">
+<h3 class="titulo elipsis">Slipknot + Marilyn Manson</h3>
+<p class="linea elipsis">Vive Claro · a 5,6 km</p>
+<div class="fila g8"><span class="linea elipsis flex1">jue 16 sep 2027</span><span class="precio" style="font-size:13px">Ver precios</span></div>
+</div>
+<button class="marcador vacio" data-href="guardado.html"><svg class="ic s22"><use href="#i-bookmark"></use></svg></button>
+</a><a class="fila-evento" data-tipo="bloque" href="detalle-baum.html">
+<div class="miniatura" style="background-image:url(../assets/portada-baum-festival.jpg)"></div>
+<div class="flex1">
+<h3 class="titulo elipsis">BAUM Festival 2027</h3>
+<p class="linea elipsis">Corferias · a 6,3 km</p>
+<div class="fila g8"><span class="linea elipsis flex1">vie 12 – sáb 13 feb 2027</span><span class="precio" style="font-size:13px">Ver precios</span></div>
+</div>
+<button class="marcador vacio" data-href="guardado.html"><svg class="ic s22"><use href="#i-bookmark"></use></svg></button>
+</a></div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;height:270px;background:#2b1f2b;padding:8px 3px 0;z-index:24;font:400 22px/1 var(--f-sistema)">
+<div class="fila" style="gap:6px;padding:0 3px"><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">q</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">w</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">e</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">r</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">t</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">y</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">u</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">i</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">o</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">p</span></div>
+<div class="fila mt12" style="gap:6px;padding:0 3px"><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">a</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">s</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">d</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">f</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">g</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">h</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">j</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">k</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">l</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">ñ</span></div>
+<div class="fila mt12" style="gap:6px;padding:0 3px 0 52px"><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">z</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">x</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">c</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">v</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">b</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">n</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center">m</span><span style="width:70px;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center;font-size:16px">borrar</span></div>
+<div class="fila mt12" style="gap:6px;padding:0 3px"><span style="width:72px;height:42px;border-radius:5px;background:#4a3a4a;display:grid;place-items:center;font-size:16px">123</span><span style="flex:1;height:42px;border-radius:5px;background:#6b5a6c;display:grid;place-items:center;font-size:16px">espacio</span><a href="resultados.html" style="width:72px;height:42px;border-radius:5px;background:var(--primario);color:var(--bg);display:grid;place-items:center;font-size:16px">ir</a></div></div>
+</section>
+</main>
+</div>
+<script src="../js/app.js"></script>
+</body>
+</html>
