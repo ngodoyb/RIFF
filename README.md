@@ -14,7 +14,7 @@ RIFF es una app que centraliza y recomienda eventos musicales en vivo en una ciu
 
 ## Links
 
-- App publicada: pendiente de confirmar la dirección de Vercel
+- App publicada: [riff-umber.vercel.app](https://riff-umber.vercel.app)
 - Repositorio: [github.com/ngodoyb/RIFF](https://github.com/ngodoyb/RIFF)
 - Prototipo navegable (HTML): abre [`disenos/prototipo.html`](disenos/prototipo.html) con doble clic en tu computador
 
