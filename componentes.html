@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIFF · catálogo del design kit</title>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/components.css">
+<style>
+  /* Estilos solo del catálogo (no son parte del kit) */
+  .catalogo { max-width: 880px; margin: 0 auto; padding: var(--espacio-8) var(--espacio-4); }
+  .catalogo section { margin-top: 56px; }
+  .catalogo h2 { margin-bottom: var(--espacio-4); }
+  .muestras { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: var(--espacio-3); }
+  .muestra { border: 1px solid var(--color-borde); border-radius: var(--radio-md); overflow: hidden; font-size: var(--texto-xs); }
+  .muestra i { display: block; height: 64px; }
+  .muestra p { margin: 0; padding: var(--espacio-2) var(--espacio-3); }
+  .demo { display: flex; flex-wrap: wrap; gap: var(--espacio-3); align-items: center; padding: var(--espacio-4); border: 1px dashed var(--color-borde); border-radius: var(--radio-md); }
+  .demo.columna { flex-direction: column; align-items: stretch; max-width: 375px; }
+  .componente { margin-top: var(--espacio-6); }
+  .componente h3 { margin: 0 0 var(--espacio-2); font-size: var(--texto-base); }
+  pre { margin: var(--espacio-2) 0 0; padding: var(--espacio-3); border-radius: var(--radio-sm); background: #000; color: var(--color-texto-suave); font-size: var(--texto-xs); overflow-x: auto; white-space: pre-wrap; }
+  .escala p { margin: var(--espacio-2) 0; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /> <circle cx="11" cy="11" r="8" /></symbol><symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z" /></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /></symbol><symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></symbol><symbol id="i-house" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></symbol><symbol id="i-map" viewBox="0 0 24 24"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" /> <path d="M15 5.764v15" /> <path d="M9 3.236v15" /></symbol><symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /> <circle cx="12" cy="7" r="4" /></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" /></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></symbol><symbol id="i-bell" viewBox="0 0 24 24"><path d="M10.268 21a2 2 0 0 0 3.464 0" /> <path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" /></symbol><symbol id="i-share" viewBox="0 0 24 24"><path d="M12 2v13" /> <path d="m16 6-4-4-4 4" /> <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" /></symbol><symbol id="i-sliders-horizontal" viewBox="0 0 24 24"><path d="M10 5H3" /> <path d="M12 19H3" /> <path d="M14 3v4" /> <path d="M16 17v4" /> <path d="M21 12h-9" /> <path d="M21 19h-5" /> <path d="M21 5h-7" /> <path d="M8 10v4" /> <path d="M8 12H3" /></symbol></svg>
+<main class="catalogo">
+  <h1 class="titulo-1">riff · design kit</h1>
+  <p class="texto-suave">Catálogo de tokens y componentes. Los valores viven en <code>css/tokens.css</code> y los componentes en <code>css/components.css</code>. Si una fuente se ve como Arial o Impact, no cargó Google Fonts: revisa la conexión a internet.</p>
+
+  <section>
+    <h2 class="titulo-2">colores</h2>
+    <div class="muestras" id="muestras"></div>
+  </section>
+
+  <section class="escala">
+    <h2 class="titulo-2">tipografía</h2>
+    <p class="texto-suave texto-pequeno">Títulos: Unbounded Bold, siempre en minúscula · Texto: Lunasima · Cifras: Anton. Las tres se cargan desde Google Fonts en tokens.css.</p>
+    <p class="titulo-1">titulo-1 · 32 px</p>
+    <p class="titulo-2">titulo-2 · 24 px</p>
+    <p class="titulo-3">titulo-3 · 20 px</p>
+    <p class="titulo-4">titulo-4 · 17 px</p>
+    <p style="font-size:var(--texto-base)">Texto base · 16 px · Lunasima regular. <b>Fuerte 700.</b></p>
+    <p style="font-size:var(--texto-sm)">Texto sm · 14 px · metadatos y chips</p>
+    <p class="texto-pequeno texto-suave">Texto xs · 12 px · etiquetas y ayudas</p>
+    <p class="cifra">128 · cifra 48 px</p>
+  </section>
+
+  <section>
+    <h2 class="titulo-2">componentes</h2>
+
+    <div class="componente"><h3>Botón · .boton</h3>
+      <div class="demo columna">
+        <button class="boton">Primario</button>
+        <button class="boton boton--secundario">Secundario</button>
+        <button class="boton boton--fantasma">Fantasma</button>
+        <button class="boton boton--peligro">Peligro</button>
+        <button class="boton" disabled>Deshabilitado</button>
+        <div style="display:flex;gap:8px"><button class="boton boton--circulo" aria-label="Volver"><svg class="icono"><use href="#i-chevron-left"/></svg></button><button class="boton boton--circulo" aria-label="Notificaciones"><svg class="icono"><use href="#i-bell"/></svg></button></div>
+      </div>
+      <pre>&lt;button class="boton"&gt;Primario&lt;/button&gt;
+&lt;button class="boton boton--secundario"&gt;Secundario&lt;/button&gt;
+&lt;button class="boton boton--fantasma"&gt;Fantasma&lt;/button&gt;
+&lt;button class="boton boton--peligro"&gt;Peligro&lt;/button&gt;
+&lt;button class="boton" disabled&gt;Deshabilitado&lt;/button&gt;
+&lt;button class="boton boton--circulo" aria-label="Volver"&gt;&lt;svg class="icono"&gt;…&lt;/svg&gt;&lt;/button&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Enlace · .enlace</h3>
+      <div class="demo"><p class="texto-suave" style="margin:0">¿Ya tienes cuenta? <a class="enlace" href="#">Inicia sesión</a></p></div>
+      <pre>&lt;a class="enlace" href="…"&gt;Inicia sesión&lt;/a&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Campo · .campo / .campo--error</h3>
+      <div class="demo columna">
+        <label class="campo"><span class="campo__etiqueta">Nombre</span><input class="campo__entrada" value="Laura"></label>
+        <label class="campo campo--error"><span class="campo__etiqueta">Correo o número de celular</span><input class="campo__entrada" value="laura@correo"><span class="campo__ayuda">Falta el dominio. Prueba con laura@correo.com</span></label>
+      </div>
+      <pre>&lt;label class="campo"&gt;
+  &lt;span class="campo__etiqueta"&gt;Nombre&lt;/span&gt;
+  &lt;input class="campo__entrada"&gt;
+  &lt;span class="campo__ayuda"&gt;Texto de ayuda&lt;/span&gt;
+&lt;/label&gt;
+&lt;!-- con error: class="campo campo--error" --&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Búsqueda · .busqueda</h3>
+      <div class="demo columna"><label class="busqueda"><svg class="icono"><use href="#i-search"/></svg>Buscar eventos, artistas, venues</label></div>
+      <pre>&lt;label class="busqueda"&gt;&lt;svg class="icono"&gt;…&lt;/svg&gt;Buscar eventos, artistas, venues&lt;/label&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Chip · .chip / .chip--seleccionado / .chip--removible</h3>
+      <div class="demo"><button class="chip">Cumbia</button><button class="chip chip--seleccionado"><svg class="icono icono--pequeno"><use href="#i-check"/></svg>Electrónica</button><button class="chip chip--removible">Rap<svg class="icono icono--pequeno"><use href="#i-x"/></svg></button></div>
+      <pre>&lt;button class="chip"&gt;Cumbia&lt;/button&gt;
+&lt;button class="chip chip--seleccionado" aria-pressed="true"&gt;Electrónica&lt;/button&gt;
+&lt;button class="chip chip--removible"&gt;Rap ×&lt;/button&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Etiqueta · .etiqueta</h3>
+      <div class="demo"><span class="etiqueta etiqueta--genero">Urbano</span><span class="etiqueta">Arena</span><span class="etiqueta etiqueta--edad">+12</span><span class="etiqueta etiqueta--publicado">Publicado</span><span class="etiqueta etiqueta--revision">En revisión</span><span class="etiqueta etiqueta--rechazado">Rechazado</span><span class="etiqueta etiqueta--dentro">Dentro de tu presupuesto</span><span class="etiqueta etiqueta--fuera">Fuera de tu presupuesto</span></div>
+      <pre>&lt;span class="etiqueta etiqueta--genero"&gt;Urbano&lt;/span&gt;
+variantes: (base = venue) · --genero · --edad · --publicado · --revision · --rechazado · --dentro · --fuera</pre>
+    </div>
+
+    <div class="componente"><h3>Tarjeta · .tarjeta / .tarjeta--destacada / .tarjeta--alerta</h3>
+      <div class="demo columna"><div class="tarjeta">Tarjeta base</div><div class="tarjeta tarjeta--destacada">Destacada (opción elegida)</div><div class="tarjeta tarjeta--alerta">Alerta (rechazos y errores)</div></div>
+      <pre>&lt;div class="tarjeta"&gt;…&lt;/div&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Tarjeta de evento · .tarjeta-evento</h3>
+      <div class="demo">
+        <a class="tarjeta-evento" href="#">
+          <div class="tarjeta-evento__portada" style="background-image:url(assets/portada-omar-courtz.jpg)"><span class="tarjeta-evento__guardar boton boton--circulo"><svg class="icono"><use href="#i-bookmark"/></svg></span></div>
+          <div class="tarjeta-evento__info">
+            <h3 class="tarjeta-evento__titulo">Omar Courtz: Por si mañana no estoy</h3>
+            <p class="tarjeta-evento__meta"><svg class="icono icono--pequeno"><use href="#i-calendar"/></svg>jue 12 nov · 8:00 p. m.</p>
+            <p class="tarjeta-evento__meta"><svg class="icono icono--pequeno"><use href="#i-map-pin"/></svg>Movistar Arena <span class="precio">$189.000 – $577.000</span></p>
+          </div>
+        </a>
+      </div>
+      <pre>&lt;a class="tarjeta-evento" href="…"&gt;
+  &lt;div class="tarjeta-evento__portada" style="background-image:url(…)"&gt;…&lt;/div&gt;
+  &lt;div class="tarjeta-evento__info"&gt;
+    &lt;h3 class="tarjeta-evento__titulo"&gt;…&lt;/h3&gt;
+    &lt;p class="tarjeta-evento__meta"&gt;…&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Fila de evento · .fila-evento</h3>
+      <div class="demo columna">
+        <a class="fila-evento" href="#"><span class="fila-evento__miniatura" style="background-image:url(assets/portada-el-kalvo.jpg)"></span>
+          <span class="fila-evento__texto"><p class="fila-evento__titulo">El Kalvo: 20 años de rap rolo</p><p class="fila-evento__linea">Teatro Gaitán · a 1,2 km</p><p class="fila-evento__linea">sáb 17 oct · <span class="precio">desde $88.800</span></p></span>
+          <svg class="icono" style="color:var(--color-primario)"><use href="#i-bookmark"/></svg></a>
+      </div>
+      <pre>&lt;a class="fila-evento" href="…"&gt;
+  &lt;span class="fila-evento__miniatura" style="background-image:url(…)"&gt;&lt;/span&gt;
+  &lt;span class="fila-evento__texto"&gt;&lt;p class="fila-evento__titulo"&gt;…&lt;/p&gt;&lt;p class="fila-evento__linea"&gt;…&lt;/p&gt;&lt;/span&gt;
+&lt;/a&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Encabezado · .encabezado</h3>
+      <div class="demo columna"><header class="encabezado"><button class="boton boton--circulo encabezado__izquierda" aria-label="Volver"><svg class="icono"><use href="#i-chevron-left"/></svg></button><h1 class="encabezado__titulo">notificaciones</h1></header></div>
+      <pre>&lt;header class="encabezado"&gt;
+  &lt;button class="boton boton--circulo encabezado__izquierda"&gt;…&lt;/button&gt;
+  &lt;h1 class="encabezado__titulo"&gt;notificaciones&lt;/h1&gt;
+&lt;/header&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Navegación inferior · .navegacion</h3>
+      <div class="demo columna"><nav class="navegacion" style="position:static">
+        <a class="navegacion__item navegacion__item--activo" href="#"><svg class="icono icono--grande"><use href="#i-house"/></svg>Feed</a>
+        <a class="navegacion__item" href="#"><svg class="icono icono--grande"><use href="#i-map"/></svg>Mapa</a>
+        <a class="navegacion__item" href="#"><svg class="icono icono--grande"><use href="#i-calendar"/></svg>Calendario</a>
+        <a class="navegacion__item" href="#"><svg class="icono icono--grande"><use href="#i-user"/></svg>Perfil</a></nav></div>
+      <pre>&lt;nav class="navegacion"&gt;
+  &lt;a class="navegacion__item navegacion__item--activo" href="index.html"&gt;…Feed&lt;/a&gt;
+  &lt;a class="navegacion__item" href="pages/mapa.html"&gt;…Mapa&lt;/a&gt;
+&lt;/nav&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Control segmentado · .segmentado</h3>
+      <div class="demo columna"><div class="segmentado"><button class="segmentado__opcion segmentado__opcion--activa">Venue</button><button class="segmentado__opcion">Artista</button><button class="segmentado__opcion">Organizador</button></div></div>
+      <pre>&lt;div class="segmentado"&gt;
+  &lt;button class="segmentado__opcion segmentado__opcion--activa"&gt;Venue&lt;/button&gt;
+  &lt;button class="segmentado__opcion"&gt;Artista&lt;/button&gt;
+&lt;/div&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Métrica · .metrica</h3>
+      <div class="demo columna"><div style="display:flex;gap:12px"><div class="metrica"><p class="metrica__valor">128</p><p class="metrica__nombre">Vistas</p></div><div class="metrica"><p class="metrica__valor">34</p><p class="metrica__nombre">Guardados</p></div><div class="metrica"><p class="metrica__valor">9</p><p class="metrica__nombre">Clics a venta</p></div></div></div>
+      <pre>&lt;div class="metrica"&gt;&lt;p class="metrica__valor"&gt;128&lt;/p&gt;&lt;p class="metrica__nombre"&gt;Vistas&lt;/p&gt;&lt;/div&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Aviso · .aviso</h3>
+      <div class="demo columna"><div class="aviso"><span class="caja-icono caja-icono--primario"><svg class="icono"><use href="#i-check"/></svg></span><span style="flex:1">Guardado en tu calendario</span><a class="enlace" href="#">Deshacer</a></div></div>
+      <pre>&lt;div class="aviso"&gt;…texto… &lt;a class="enlace"&gt;Deshacer&lt;/a&gt;&lt;/div&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Diálogo · .dialogo</h3>
+      <div class="demo"><div class="dialogo"><div class="dialogo__cuerpo"><p class="dialogo__titulo">¿Cerrar sesión?</p><p class="dialogo__texto">Tus eventos guardados y recordatorios seguirán aquí cuando vuelvas a entrar.</p></div><div class="dialogo__acciones"><button>Cancelar</button><button class="dialogo__accion--peligro">Cerrar sesión</button></div></div></div>
+      <pre>&lt;div class="dialogo"&gt;
+  &lt;div class="dialogo__cuerpo"&gt;&lt;p class="dialogo__titulo"&gt;…&lt;/p&gt;&lt;p class="dialogo__texto"&gt;…&lt;/p&gt;&lt;/div&gt;
+  &lt;div class="dialogo__acciones"&gt;&lt;button&gt;Cancelar&lt;/button&gt;&lt;button class="dialogo__accion--principal"&gt;Aceptar&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+    </div>
+
+    <div class="componente"><h3>Progreso · .progreso · Carga · .esqueleto · Ícono · .caja-icono</h3>
+      <div class="demo columna">
+        <div class="progreso"><div class="progreso__barra" style="width:60%"></div></div>
+        <div style="display:flex;gap:12px;align-items:center"><div class="esqueleto" style="width:72px;height:72px"></div><div style="flex:1;display:grid;gap:8px"><div class="esqueleto" style="height:14px;width:80%"></div><div class="esqueleto" style="height:10px;width:50%"></div></div></div>
+        <div style="display:flex;gap:12px"><span class="caja-icono"><svg class="icono"><use href="#i-calendar"/></svg></span><span class="caja-icono caja-icono--primario"><svg class="icono"><use href="#i-check"/></svg></span><span class="caja-icono caja-icono--secundario"><svg class="icono"><use href="#i-sliders-horizontal"/></svg></span></div>
+      </div>
+      <pre>&lt;div class="progreso"&gt;&lt;div class="progreso__barra" style="width:60%"&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class="esqueleto" style="height:14px"&gt;&lt;/div&gt;
+&lt;span class="caja-icono caja-icono--primario"&gt;&lt;svg class="icono"&gt;…&lt;/svg&gt;&lt;/span&gt;</pre>
+    </div>
+  </section>
+</main>
+<script>
+  // Dibuja las muestras de color leyendo las variables de tokens.css
+  const colores = ["--color-fondo", "--color-superficie", "--color-superficie-profunda", "--color-superficie-solida", "--color-primario", "--color-primario-hover", "--color-secundario", "--color-acento", "--color-texto", "--color-texto-suave", "--color-texto-tenue", "--color-borde", "--color-exito", "--color-error", "--gradiente-marca"];
+  const raiz = getComputedStyle(document.documentElement);
+  document.getElementById("muestras").innerHTML = colores.map(v => {
+    const valor = raiz.getPropertyValue(v).trim();
+    return `<div class="muestra"><i style="background:${valor}"></i><p><b>${v}</b><br><span class="texto-suave">${valor}</span></p></div>`;
+  }).join("");
+</script>
+</body>
+</html>

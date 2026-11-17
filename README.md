@@ -12,6 +12,12 @@ RIFF es una app que centraliza y recomienda eventos musicales en vivo en una ciu
 | Kevin Torres | Front end, agregación de datos |
 | Sofia Lizarazo | UX/UI, identidad de marca |
 
+## Links
+
+- App publicada: pendiente de confirmar la dirección de Vercel
+- Repositorio: [github.com/ngodoyb/RIFF](https://github.com/ngodoyb/RIFF)
+- Prototipo navegable (HTML): abre [`disenos/prototipo.html`](disenos/prototipo.html) con doble clic en tu computador
+
 ## Documentos
 
 | Documento | Descripción |
@@ -38,16 +44,17 @@ RIFF es una app que centraliza y recomienda eventos musicales en vivo en una ciu
 - Formulario simple para que organizadores, bandas y venues publiquen su evento.
 - Redirección a la página oficial de venta (venue, organizador o plataforma de ticketing).
 
-## Estructura del repositorio
+## Cómo está organizado este repo
 
-```
-RIFF/
-├── README.md
-└── docs/
-    ├── brief.md
-    ├── brief-ux.md
-    ├── pitch.md
-    └── originales/
-        ├── Brief_RIFF.docx
-        └── Pitch.docx
-```
+- `index.html`: la puerta de entrada de la app (la primera pantalla).
+- `pages/`: una página por cada pantalla de la app.
+- `css/`: el design kit (`tokens.css`, `components.css`) y `prototipo.css`, el estilo temporal del prototipo.
+- `js/`: el comportamiento de la app (`app.js`).
+- `assets/`: todas las imágenes de la app: portadas, fotos y el mapa.
+- `disenos/`: el prototipo original en HTML, solo de referencia.
+- `componentes.html`: catálogo para ver todos los componentes del design kit.
+- `spec.md`: el plano de la app: flujo, datos y pantallas.
+- `pantallas.md`: el mapa de avance, pantalla por pantalla.
+- `decisiones-design-kit.md`: por qué el kit es como es.
+- `CLAUDE.md`: las reglas de trabajo para Claude.
+- `docs/`: brief, brief UX y pitch del proceso.

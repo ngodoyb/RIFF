@@ -1,0 +1,73 @@
+/* =========================================================
+   RIFF · tokens.css
+   Las decisiones base del design kit. Salen del design system
+   de Figma («RIFF · Alta fidelidad») y de decisiones-design-kit.md.
+   Los componentes (components.css) usan SOLO estas variables.
+   ========================================================= */
+
+/* Fuentes: las tres están en Google Fonts, así funcionan en
+   cualquier computador sin instalarlas. */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lunasima:wght@400;700&family=Unbounded:wght@700&display=swap");
+
+:root {
+  /* ---------- Colores ---------- */
+  --color-fondo: #100310;                     /* fondo de todas las pantallas */
+  --color-superficie: rgba(99, 56, 102, 0.3); /* tarjetas, campos, botones secundarios */
+  --color-superficie-profunda: #633866;       /* cajas de ícono, fondos de imagen */
+  --color-superficie-solida: #2a1029;         /* chips, hojas inferiores, globos */
+  --color-primario: #e199d1;                  /* acción principal, enlaces, íconos activos */
+  --color-primario-hover: #eab4de;            /* primario al pasar el mouse */
+  --color-secundario: #765ba3;                /* selección (chips), botón de filtros, géneros */
+  --color-acento: #cb6e74;                    /* avisos suaves, «Sorpréndeme», puntos de notificación */
+  --color-texto: #ffffff;                     /* texto principal */
+  --color-texto-suave: rgba(255, 255, 255, 0.65); /* texto de apoyo, etiquetas de campo */
+  --color-texto-tenue: rgba(255, 255, 255, 0.38); /* texto deshabilitado, días pasados */
+  --color-texto-sobre-primario: #100310;      /* texto encima del rosa primario */
+  --color-borde: rgba(255, 255, 255, 0.12);   /* bordes de tarjetas y campos */
+  --color-exito: #8fd6a7;                     /* «Dentro de tu presupuesto» */
+  --color-error: #933a50;                     /* errores, +18, rechazado, cancelar */
+  --gradiente-marca: linear-gradient(90deg, #765ba3, #e199d1, #cb6e74); /* splash, éxito, progreso */
+
+  /* ---------- Tipografía ---------- */
+  --fuente-titulos: "Unbounded", "Arial Black", sans-serif; /* títulos, siempre en minúscula */
+  --fuente-texto: "Lunasima", Arial, sans-serif;            /* todo el texto de lectura y botones */
+  --fuente-cifras: "Anton", Impact, sans-serif;             /* números grandes: métricas, días */
+
+  --texto-xs: 12px;    /* captions, etiquetas de campo, badges */
+  --texto-sm: 14px;    /* texto secundario, chips, metadatos */
+  --texto-base: 16px;  /* cuerpo, botones, campos */
+  --texto-lg: 17px;    /* título de la barra de navegación (H4) */
+  --texto-xl: 20px;    /* títulos de sección (H3) */
+  --texto-2xl: 24px;   /* títulos de detalle (H2) */
+  --texto-3xl: 32px;   /* título principal de pantalla (H1) */
+  --texto-cifra: 48px; /* métricas */
+
+  --peso-normal: 400;
+  --peso-fuerte: 700;
+
+  --interlineado-titulo: 1.2;
+  --interlineado-texto: 1.5;
+
+  /* ---------- Espacios (múltiplos de 4 px) ---------- */
+  --espacio-1: 4px;
+  --espacio-2: 8px;
+  --espacio-3: 12px;
+  --espacio-4: 16px;  /* margen lateral de todas las pantallas */
+  --espacio-5: 20px;
+  --espacio-6: 24px;
+  --espacio-7: 28px;
+  --espacio-8: 32px;
+
+  /* ---------- Bordes y sombras ---------- */
+  --radio-sm: 8px;      /* miniaturas */
+  --radio-md: 12px;     /* botones y campos (control) */
+  --radio-lg: 16px;     /* tarjetas */
+  --radio-total: 999px; /* chips, badges, botones circulares */
+  --sombra-suave: 0 4px 16px rgba(0, 0, 0, 0.25);
+  --sombra-media: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --brillo-primario: 0 0 40px rgba(225, 153, 209, 0.45); /* círculos de éxito */
+
+  /* ---------- Medidas fijas ---------- */
+  --alto-control: 52px; /* botones y campos: área táctil ≥ 44 px */
+  --alto-chip: 44px;
+}
